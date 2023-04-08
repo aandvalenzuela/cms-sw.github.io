@@ -1,0 +1,239 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1663528445,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "d368ff4f",
+          "bytes": 2609071221,
+          "md5": null,
+          "name": "/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/0513CF23-74F8-F042-BA08-C52E0A088FB5.root",
+          "pfns": {
+            "davs://ccdavcms.in2p3.fr:2880/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/0513CF23-74F8-F042-BA08-C52E0A088FB5.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_FR_CCIN2P3_Disk",
+              "rse_id": "112105749e764d9b8df8f6ca866e4ef8",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://cmswebdav-kit.gridka.de:2880/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/0513CF23-74F8-F042-BA08-C52E0A088FB5.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_DE_KIT_Disk",
+              "rse_id": "16eef8c8359d47c985c5cc48dd1a1a56",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/0513CF23-74F8-F042-BA08-C52E0A088FB5.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 3,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_DE_KIT_Disk": [
+              "davs://cmswebdav-kit.gridka.de:2880/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/0513CF23-74F8-F042-BA08-C52E0A088FB5.root"
+            ],
+            "T1_FR_CCIN2P3_Disk": [
+              "davs://ccdavcms.in2p3.fr:2880/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/0513CF23-74F8-F042-BA08-C52E0A088FB5.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/0513CF23-74F8-F042-BA08-C52E0A088FB5.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2609071221,
+          "states": {
+            "T1_DE_KIT_Disk": "AVAILABLE",
+            "T1_FR_CCIN2P3_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "af9125154fb839818a1aa6efe6aeb839"
+    },
+    {
+      "das": {
+        "expire": 1663528445,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "abd56d47",
+          "bytes": 2376039848,
+          "md5": null,
+          "name": "/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/9302F863-22A3-054C-B3B2-575A2A6D1E15.root",
+          "pfns": {
+            "davs://ccdavcms.in2p3.fr:2880/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/9302F863-22A3-054C-B3B2-575A2A6D1E15.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_FR_CCIN2P3_Disk",
+              "rse_id": "112105749e764d9b8df8f6ca866e4ef8",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://cmswebdav-kit.gridka.de:2880/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/9302F863-22A3-054C-B3B2-575A2A6D1E15.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_DE_KIT_Disk",
+              "rse_id": "16eef8c8359d47c985c5cc48dd1a1a56",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/9302F863-22A3-054C-B3B2-575A2A6D1E15.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 3,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_DE_KIT_Disk": [
+              "davs://cmswebdav-kit.gridka.de:2880/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/9302F863-22A3-054C-B3B2-575A2A6D1E15.root"
+            ],
+            "T1_FR_CCIN2P3_Disk": [
+              "davs://ccdavcms.in2p3.fr:2880/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/9302F863-22A3-054C-B3B2-575A2A6D1E15.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/9302F863-22A3-054C-B3B2-575A2A6D1E15.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2376039848,
+          "states": {
+            "T1_DE_KIT_Disk": "AVAILABLE",
+            "T1_FR_CCIN2P3_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "af9125154fb839818a1aa6efe6aeb839"
+    },
+    {
+      "das": {
+        "expire": 1663528445,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "b9d1bd1e",
+          "bytes": 2133239059,
+          "md5": null,
+          "name": "/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/E16096DD-803A-1740-9539-027A2515DD1B.root",
+          "pfns": {
+            "davs://ccdavcms.in2p3.fr:2880/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/E16096DD-803A-1740-9539-027A2515DD1B.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_FR_CCIN2P3_Disk",
+              "rse_id": "112105749e764d9b8df8f6ca866e4ef8",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://cmswebdav-kit.gridka.de:2880/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/E16096DD-803A-1740-9539-027A2515DD1B.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_DE_KIT_Disk",
+              "rse_id": "16eef8c8359d47c985c5cc48dd1a1a56",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/E16096DD-803A-1740-9539-027A2515DD1B.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 3,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_DE_KIT_Disk": [
+              "davs://cmswebdav-kit.gridka.de:2880/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/E16096DD-803A-1740-9539-027A2515DD1B.root"
+            ],
+            "T1_FR_CCIN2P3_Disk": [
+              "davs://ccdavcms.in2p3.fr:2880/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/E16096DD-803A-1740-9539-027A2515DD1B.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValQCD_Pt_80_120_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/E16096DD-803A-1740-9539-027A2515DD1B.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2133239059,
+          "states": {
+            "T1_DE_KIT_Disk": "AVAILABLE",
+            "T1_FR_CCIN2P3_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "af9125154fb839818a1aa6efe6aeb839"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "af9125154fb839818a1aa6efe6aeb839",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_80_120_13_HI/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValQCD_Pt_80_120_13_HI/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM",
+      "site": "T2_CH_CERN"
+    },
+    "system": "",
+    "tstamp": 1663528444
+  },
+  "nresults": 3,
+  "status": "ok",
+  "timestamp": 1663528445
+}

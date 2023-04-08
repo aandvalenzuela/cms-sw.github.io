@@ -1,0 +1,740 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "b16bc787",
+          "bytes": 3006649870,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/01fbd63d-032e-4ae5-90ff-564a9fbcef1f.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/01fbd63d-032e-4ae5-90ff-564a9fbcef1f.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/01fbd63d-032e-4ae5-90ff-564a9fbcef1f.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/01fbd63d-032e-4ae5-90ff-564a9fbcef1f.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/01fbd63d-032e-4ae5-90ff-564a9fbcef1f.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 3006649870,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "05ebf218",
+          "bytes": 4262239297,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/07988beb-03b1-4fcf-9b22-523daf47c64a.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/07988beb-03b1-4fcf-9b22-523daf47c64a.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/07988beb-03b1-4fcf-9b22-523daf47c64a.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/07988beb-03b1-4fcf-9b22-523daf47c64a.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/07988beb-03b1-4fcf-9b22-523daf47c64a.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4262239297,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "07bbf160",
+          "bytes": 4287030342,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/2dc466c0-cc7a-418c-ae8c-5c85a5503ecf.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/2dc466c0-cc7a-418c-ae8c-5c85a5503ecf.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/2dc466c0-cc7a-418c-ae8c-5c85a5503ecf.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/2dc466c0-cc7a-418c-ae8c-5c85a5503ecf.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/2dc466c0-cc7a-418c-ae8c-5c85a5503ecf.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4287030342,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "8a0b89cd",
+          "bytes": 4255975858,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/3f38794a-222c-4b95-a11e-419a8745bfb8.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/3f38794a-222c-4b95-a11e-419a8745bfb8.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/3f38794a-222c-4b95-a11e-419a8745bfb8.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/3f38794a-222c-4b95-a11e-419a8745bfb8.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/3f38794a-222c-4b95-a11e-419a8745bfb8.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4255975858,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "0a6fd619",
+          "bytes": 4277282620,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/404198ba-63e1-4dc9-9aab-3f6c7b29b1a0.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/404198ba-63e1-4dc9-9aab-3f6c7b29b1a0.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/404198ba-63e1-4dc9-9aab-3f6c7b29b1a0.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/404198ba-63e1-4dc9-9aab-3f6c7b29b1a0.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/404198ba-63e1-4dc9-9aab-3f6c7b29b1a0.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4277282620,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "d094b5dd",
+          "bytes": 4260725192,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/44dfdd1b-ab07-40a6-b401-5f7b8a538906.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/44dfdd1b-ab07-40a6-b401-5f7b8a538906.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/44dfdd1b-ab07-40a6-b401-5f7b8a538906.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/44dfdd1b-ab07-40a6-b401-5f7b8a538906.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/44dfdd1b-ab07-40a6-b401-5f7b8a538906.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4260725192,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "8a1d15d0",
+          "bytes": 4234883047,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/54e3fffd-7a44-4a42-a651-578a2c1d047e.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/54e3fffd-7a44-4a42-a651-578a2c1d047e.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/54e3fffd-7a44-4a42-a651-578a2c1d047e.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/54e3fffd-7a44-4a42-a651-578a2c1d047e.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/54e3fffd-7a44-4a42-a651-578a2c1d047e.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4234883047,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "0078d1b3",
+          "bytes": 484847468,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/70289e87-ecfd-4526-be5c-2be931317d8a.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/70289e87-ecfd-4526-be5c-2be931317d8a.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/70289e87-ecfd-4526-be5c-2be931317d8a.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/70289e87-ecfd-4526-be5c-2be931317d8a.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/70289e87-ecfd-4526-be5c-2be931317d8a.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 484847468,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "f34e32a0",
+          "bytes": 4253491591,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/72ab3f66-3c37-44e8-821f-5156f2278b85.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/72ab3f66-3c37-44e8-821f-5156f2278b85.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/72ab3f66-3c37-44e8-821f-5156f2278b85.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/72ab3f66-3c37-44e8-821f-5156f2278b85.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/72ab3f66-3c37-44e8-821f-5156f2278b85.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4253491591,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "da9424dd",
+          "bytes": 4244329624,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/8a905140-77d2-4566-b67f-86aa34edc2b0.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/8a905140-77d2-4566-b67f-86aa34edc2b0.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/8a905140-77d2-4566-b67f-86aa34edc2b0.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/8a905140-77d2-4566-b67f-86aa34edc2b0.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/8a905140-77d2-4566-b67f-86aa34edc2b0.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4244329624,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "54b98933",
+          "bytes": 4269757935,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/a928cad7-8a07-4536-b7b7-fc2e398454fe.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/a928cad7-8a07-4536-b7b7-fc2e398454fe.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/a928cad7-8a07-4536-b7b7-fc2e398454fe.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/a928cad7-8a07-4536-b7b7-fc2e398454fe.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/a928cad7-8a07-4536-b7b7-fc2e398454fe.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4269757935,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "b4390a20",
+          "bytes": 2210291546,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/b92e5c89-3b78-408d-8e17-f2a31761d19c.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/b92e5c89-3b78-408d-8e17-f2a31761d19c.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/b92e5c89-3b78-408d-8e17-f2a31761d19c.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/b92e5c89-3b78-408d-8e17-f2a31761d19c.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/b92e5c89-3b78-408d-8e17-f2a31761d19c.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2210291546,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    },
+    {
+      "das": {
+        "expire": 1680332985,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "0f9d2297",
+          "bytes": 4231890102,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/bddeb5b2-491a-42a3-af18-35e1c1c2b312.root",
+          "pfns": {
+            "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/bddeb5b2-491a-42a3-af18-35e1c1c2b312.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/bddeb5b2-491a-42a3-af18-35e1c1c2b312.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "davs://cmsdcadisk.fnal.gov:2880/dcache/uscmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/bddeb5b2-491a-42a3-af18-35e1c1c2b312.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValQCD_FlatPt_15_3000HS_14/GEN-SIM/130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/00000/bddeb5b2-491a-42a3-af18-35e1c1c2b312.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4231890102,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b832c3b701d1a28bd26a46a31362c072"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "b832c3b701d1a28bd26a46a31362c072",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_FlatPt_15_3000HS_14/CMSSW_13_1_0_pre1-130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValQCD_FlatPt_15_3000HS_14/CMSSW_13_1_0_pre1-130X_mcRun3_2022_realistic_withNewBSFromEOY2022Data_v2_RV186-v1/GEN-SIM",
+      "site": "T2_CH_CERN"
+    },
+    "system": "",
+    "tstamp": 1680332984
+  },
+  "nresults": 13,
+  "status": "ok",
+  "timestamp": 1680332985
+}

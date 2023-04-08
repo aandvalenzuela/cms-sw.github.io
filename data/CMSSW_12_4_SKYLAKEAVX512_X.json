@@ -1,0 +1,183 @@
+{
+    "base_branch": "CMSSW_12_4_X", 
+    "release_name": "CMSSW_12_4_SKYLAKEAVX512_X", 
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {
+                "el8_amd64_gcc10": []
+            }, 
+            "cmsdist_compared_tags": {
+                "el8_amd64_gcc10": "IB/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/el8_amd64_gcc10..IB/CMSSW_12_4_X/master"
+            }, 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "profiling": "not-found", 
+            "crab_tests": "not-found", 
+            "compared_tags": "CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300-->CMSSW_12_4_X", 
+            "dqm_tests": "not-found", 
+            "utests": [], 
+            "ib_date": "2023-04-07-2300-0001", 
+            "relvals": [], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_12_4_SKYLAKEAVX512_X", 
+            "release_name": "CMSSW_12_4_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "base_branch": "CMSSW_12_4_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "el8_amd64_gcc10"
+            ], 
+            "cmsdist_merged_prs": {
+                "el8_amd64_gcc10": []
+            }, 
+            "cmsdist_compared_tags": {
+                "el8_amd64_gcc10": "IB/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/el8_amd64_gcc10..IB/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/el8_amd64_gcc10"
+            }, 
+            "cmsdistTags": {
+                "el8_amd64_gcc10": "IB/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/el8_amd64_gcc10"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "profiling": "not-found", 
+            "crab_tests": "not-found", 
+            "compared_tags": "CMSSW_12_4_SKYLAKEAVX512_X_2023-03-31-2300-->CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300", 
+            "dqm_tests": "not-found", 
+            "utests": [
+                {
+                    "arch": "el8_amd64_gcc10", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/fri/12.4.SKYLAKEAVX512-fri-23/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
+                }
+            ], 
+            "ib_date": "2023-04-07-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "el8_amd64_gcc10", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/fri/12.4.SKYLAKEAVX512-fri-23/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3646, 
+                        "known_failed": 0, 
+                        "num_failed": 2
+                    }
+                }
+            ], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_12_4_SKYLAKEAVX512_X", 
+            "release_name": "CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "base_branch": "CMSSW_12_4_X", 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "el8_amd64_gcc10", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/fri/12.4.SKYLAKEAVX512-fri-23/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 2, 
+                        "ignoreWarning": 112
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "el8_amd64_gcc10", 
+                    "passed": "error"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "el8_amd64_gcc10", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/fri/12.4.SKYLAKEAVX512-fri-23/CMSSW_12_4_SKYLAKEAVX512_X_2023-04-07-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
+            "cmsdistTags": {
+                "el8_amd64_gcc10": "IB/CMSSW_12_4_SKYLAKEAVX512_X_2023-03-31-2300/el8_amd64_gcc10"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "profiling": "not-found", 
+            "crab_tests": "not-found", 
+            "compared_tags": "CMSSW_12_4_SKYLAKEAVX512_X_2023-03-31-2300-->CMSSW_12_4_SKYLAKEAVX512_X_2023-03-31-2300", 
+            "dqm_tests": "not-found", 
+            "utests": [], 
+            "ib_date": "2023-03-31-2300-0000", 
+            "relvals": [], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_12_4_SKYLAKEAVX512_X", 
+            "release_name": "CMSSW_12_4_SKYLAKEAVX512_X_2023-03-31-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "base_branch": "CMSSW_12_4_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }
+    ]
+}

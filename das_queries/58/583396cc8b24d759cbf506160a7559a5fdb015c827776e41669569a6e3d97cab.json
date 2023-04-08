@@ -1,0 +1,470 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "aa985038",
+          "bytes": 2624579706,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/2f640be8-c41c-4711-bb67-706217309cec.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/2f640be8-c41c-4711-bb67-706217309cec.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/2f640be8-c41c-4711-bb67-706217309cec.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/2f640be8-c41c-4711-bb67-706217309cec.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/2f640be8-c41c-4711-bb67-706217309cec.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2624579706,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    },
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "d15a51e2",
+          "bytes": 2383550631,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/95110af8-d4b5-4131-8bb8-182755174b62.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/95110af8-d4b5-4131-8bb8-182755174b62.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/95110af8-d4b5-4131-8bb8-182755174b62.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/95110af8-d4b5-4131-8bb8-182755174b62.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/95110af8-d4b5-4131-8bb8-182755174b62.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2383550631,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    },
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "ae199167",
+          "bytes": 2194679563,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/9c875404-7297-4dee-821e-d2d265156912.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/9c875404-7297-4dee-821e-d2d265156912.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/9c875404-7297-4dee-821e-d2d265156912.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/9c875404-7297-4dee-821e-d2d265156912.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/9c875404-7297-4dee-821e-d2d265156912.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2194679563,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    },
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "cb9bd490",
+          "bytes": 3246079513,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/a5063144-1ef4-4ac4-af93-e46ec311d9ab.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/a5063144-1ef4-4ac4-af93-e46ec311d9ab.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/a5063144-1ef4-4ac4-af93-e46ec311d9ab.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/a5063144-1ef4-4ac4-af93-e46ec311d9ab.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/a5063144-1ef4-4ac4-af93-e46ec311d9ab.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 3246079513,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    },
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "312b0b7e",
+          "bytes": 874553082,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/c94b98a1-9f21-48db-9bcb-c396af1c8c6c.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/c94b98a1-9f21-48db-9bcb-c396af1c8c6c.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/c94b98a1-9f21-48db-9bcb-c396af1c8c6c.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/c94b98a1-9f21-48db-9bcb-c396af1c8c6c.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/c94b98a1-9f21-48db-9bcb-c396af1c8c6c.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 874553082,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    },
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "ea96ab29",
+          "bytes": 2153310292,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/e24ade65-3a4f-46a1-80a3-e4bd8ba860e7.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/e24ade65-3a4f-46a1-80a3-e4bd8ba860e7.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/e24ade65-3a4f-46a1-80a3-e4bd8ba860e7.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/e24ade65-3a4f-46a1-80a3-e4bd8ba860e7.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/e24ade65-3a4f-46a1-80a3-e4bd8ba860e7.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2153310292,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    },
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "25aa00b9",
+          "bytes": 3228301685,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/ebe40506-7021-477c-8d0f-82f36b861df6.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/ebe40506-7021-477c-8d0f-82f36b861df6.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/ebe40506-7021-477c-8d0f-82f36b861df6.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/ebe40506-7021-477c-8d0f-82f36b861df6.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/ebe40506-7021-477c-8d0f-82f36b861df6.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 3228301685,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    },
+    {
+      "das": {
+        "expire": 1679126961,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "0d54228e",
+          "bytes": 2776381925,
+          "md5": null,
+          "name": "/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/edb92a7a-cd6e-4d3f-8b2e-a5d09407bd82.root",
+          "pfns": {
+            "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/edb92a7a-cd6e-4d3f-8b2e-a5d09407bd82.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/edb92a7a-cd6e-4d3f-8b2e-a5d09407bd82.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_IT_CNAF_Disk",
+              "rse_id": "dd251c7f3f7a40e0b3aef3d2c6d0875e",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_IT_CNAF_Disk": [
+              "davs://xfer-cms.cr.cnaf.infn.it:8443/cmsdisk/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/edb92a7a-cd6e-4d3f-8b2e-a5d09407bd82.root"
+            ],
+            "T2_CH_CERN": [
+              "davs://eoscms.cern.ch:443/eos/cms/store/relval/CMSSW_13_1_0_pre1/RelValTTbar_14TeV/GEN-SIM/130X_mcRun4_realistic_v2_2026D96noPU-v1/00000/edb92a7a-cd6e-4d3f-8b2e-a5d09407bd82.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2776381925,
+          "states": {
+            "T1_IT_CNAF_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "e6ce1ed0c0742cd7fcbb11352bfd319a"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "e6ce1ed0c0742cd7fcbb11352bfd319a",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_14TeV/CMSSW_13_1_0_pre1-130X_mcRun4_realistic_v2_2026D96noPU-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValTTbar_14TeV/CMSSW_13_1_0_pre1-130X_mcRun4_realistic_v2_2026D96noPU-v1/GEN-SIM",
+      "site": "T2_CH_CERN"
+    },
+    "system": "",
+    "tstamp": 1679126960
+  },
+  "nresults": 8,
+  "status": "ok",
+  "timestamp": 1679126961
+}
