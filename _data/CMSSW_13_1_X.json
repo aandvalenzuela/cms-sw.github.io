@@ -83,7 +83,10 @@
                 "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-09-0000/slc7_amd64_gcc11", 
                 "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-09-0000/el8_amd64_gcc11"
             }, 
-            "piechart": "inprogress", 
+            "piechart": {
+                "status": "passed", 
+                "data": "el8_amd64_gcc11/11834.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
+            }, 
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -92,7 +95,7 @@
                 "status": "passed", 
                 "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
             }, 
-            "profiling": "inprogress", 
+            "profiling": "found", 
             "crab_tests": "passed", 
             "base_branch": "CMSSW_13_1_X", 
             "compared_tags": "CMSSW_13_1_X_2023-04-08-1100-->CMSSW_13_1_X_2023-04-09-0000", 
@@ -108,9 +111,11 @@
                 }, 
                 {
                     "arch": "slc7_amd64_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/sun/13.1-sun-00/CMSSW_13_1_X_2023-04-09-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/sun/13.1-sun-00/CMSSW_13_1_X_2023-04-09-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2023-04-09-0000-0000", 
