@@ -98,7 +98,19 @@
                 }
             ], 
             "ib_date": "2023-04-09-0000-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-00/CMSSW_12_1_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 10, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_12_1_X", 
             "release_name": "CMSSW_12_1_X_2023-04-09-0000", 
