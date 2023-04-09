@@ -103,12 +103,12 @@
                 "ib_date": "2023-04-09-0000-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc700", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2386, 
+                            "num_passed": 2729, 
                             "known_failed": 0, 
                             "num_failed": 18
                         }
@@ -119,7 +119,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2414, 
+                            "num_passed": 2727, 
                             "known_failed": 3, 
                             "num_failed": 0
                         }
@@ -7967,7 +7967,14 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2023-04-09-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -11311,7 +11318,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.6-sun-00/CMSSW_10_6_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 18, 
+                            "num_passed": 326, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -14333,7 +14340,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.0-sun-00/CMSSW_11_0_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 48, 
+                            "num_passed": 392, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -14668,7 +14675,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 17, 
+                            "num_passed": 18, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -14676,12 +14683,12 @@
                     {
                         "done": false, 
                         "arch": "cc8_amd64_gcc8", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 40, 
+                            "num_passed": 287, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -15824,7 +15831,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 19, 
+                            "num_passed": 39, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -22052,7 +22059,19 @@
                     }
                 ], 
                 "ib_date": "2023-04-09-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-00/CMSSW_11_3_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_11_3_X", 
                 "release_name": "CMSSW_11_3_X_2023-04-09-0000", 
@@ -24312,7 +24331,14 @@
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-00/CMSSW_12_1_X_2023-04-09-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -24836,12 +24862,12 @@
                     {
                         "done": false, 
                         "arch": "el8_amd64_gcc10", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.4-sun-00/CMSSW_12_4_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1373, 
+                            "num_passed": 3333, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -27678,7 +27704,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.5-sun-00/CMSSW_12_5_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 675, 
+                            "num_passed": 2587, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -28359,7 +28385,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 14, 
+                            "num_passed": 820, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -30857,7 +30883,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/sun/13.0-sun-00/CMSSW_13_0_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 564, 
+                            "num_passed": 1781, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -53592,8 +53618,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 546, 
-                            "known_failed": 0, 
+                            "num_passed": 1142, 
+                            "known_failed": 3, 
                             "num_failed": 0
                         }
                     }
