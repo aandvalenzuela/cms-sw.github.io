@@ -84,7 +84,10 @@
             "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "found", 
-            "reco_event_loop": "inprogress", 
+            "reco_event_loop": {
+                "status": "passed", 
+                "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
+            }, 
             "profiling": "inprogress", 
             "crab_tests": "passed", 
             "base_branch": "CMSSW_13_0_X", 
@@ -114,7 +117,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/sun/13.0-sun-00/CMSSW_13_0_X_2023-04-09-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3368, 
+                        "num_passed": 3719, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }

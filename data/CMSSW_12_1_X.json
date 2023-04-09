@@ -84,9 +84,11 @@
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc900", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-00/CMSSW_12_1_X_2023-04-09-0000/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/12.1-sun-00/CMSSW_12_1_X_2023-04-09-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "27"
+                    }
                 }, 
                 {
                     "arch": "cc8_amd64_gcc9", 
