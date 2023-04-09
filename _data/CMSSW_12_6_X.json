@@ -93,15 +93,17 @@
             "dqm_tests": "not-found", 
             "utests": [
                 {
+                    "arch": "el8_amd64_gcc10", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2023-04-09-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }, 
+                {
                     "arch": "el8_amd64_gcc11", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/sun/12.6-sun-00/CMSSW_12_6_X_2023-04-09-0000/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "el8_amd64_gcc10", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc10/www/sun/12.6-sun-00/CMSSW_12_6_X_2023-04-09-0000/new/logAnalysis.pkl']", 
                     "details": {}
                 }, 
                 {
