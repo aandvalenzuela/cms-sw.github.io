@@ -175,6 +175,57 @@
     },
     {
         "exitcode": 0,
+        "id": "4000.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGI+RECODBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 164
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 752
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11634.521",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCP5_2021_GenSimFullINPUT+DigiFull_2021+RecoFullPatatrack_HCALOnlyCPU_2021+HARVESTFullPatatrack_HCALOnlyCPU_2021",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 139
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "20661.97",
         "known_error": 0,
         "name": "PREMIXUP26D41_PU25+PREMIX_2026D41PU_PremixHLBeamSpotFullPU_Premix",
@@ -183,6 +234,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 20
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250200.118",
+        "known_error": 0,
+        "name": "ProdZEE_13_pmx25ns+ProdZEE_13UP18+DIGIPRMXUP18_PROD_PU25+RECOPRMXUP18PROD_PU25+NANOEDMMC2018_PROD",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 46
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 56
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 74
             }
         ]
     }
