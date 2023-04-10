@@ -62,7 +62,7 @@
                 "slc7_amd64_gcc10": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc10": "IB/CMSSW_12_4_X_2023-04-02-2300/slc7_amd64_gcc10..IB/CMSSW_12_4_X_2023-04-09-2300/slc7_amd64_gcc10"
+                "slc7_amd64_gcc10": "IB/CMSSW_12_4_X_2023-04-09-2300/slc7_amd64_gcc10..IB/CMSSW_12_4_X_2023-04-09-2300/slc7_amd64_gcc10"
             }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc10": "IB/CMSSW_12_4_X_2023-04-09-2300/slc7_amd64_gcc10"
@@ -118,7 +118,14 @@
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc10", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.4-sun-23/CMSSW_12_4_X_2023-04-09-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "inprogress"
         }, 
         {
@@ -354,15 +361,9 @@
         {
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
-            "tests_archs": [
-                "slc7_amd64_gcc10"
-            ], 
-            "cmsdist_merged_prs": {
-                "slc7_amd64_gcc10": []
-            }, 
-            "cmsdist_compared_tags": {
-                "slc7_amd64_gcc10": "IB/CMSSW_12_4_X_2023-04-02-2300/slc7_amd64_gcc10..IB/CMSSW_12_4_X_2023-04-02-2300/slc7_amd64_gcc10"
-            }, 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "cmsdistTags": {
                 "slc7_amd64_gcc10": "IB/CMSSW_12_4_X_2023-04-02-2300/slc7_amd64_gcc10"
             }, 
@@ -373,30 +374,9 @@
             "crab_tests": "inprogress", 
             "compared_tags": "CMSSW_12_4_X_2023-04-02-0000-->CMSSW_12_4_X_2023-04-02-2300", 
             "dqm_tests": "not-found", 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc10", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.4-sun-23/CMSSW_12_4_X_2023-04-02-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "1"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2023-04-02-2300-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc10", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.4-sun-23/CMSSW_12_4_X_2023-04-02-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3650, 
-                        "known_failed": 0, 
-                        "num_failed": 1
-                    }
-                }
-            ], 
+            "relvals": [], 
             "igprof": "inprogress", 
             "release_queue": "CMSSW_12_4_X", 
             "release_name": "CMSSW_12_4_X_2023-04-02-2300", 
@@ -406,39 +386,18 @@
             "merged_prs": [], 
             "base_branch": "CMSSW_12_4_X", 
             "invalid_includes": [], 
-            "builds": [
-                {
-                    "arch": "slc7_amd64_gcc10", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.4-sun-23/CMSSW_12_4_X_2023-04-02-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 58
-                    }
-                }
-            ], 
+            "builds": [], 
             "material_budget_v2": "not-found", 
             "check-headers": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "slc7_amd64_gcc10", 
-                    "passed": "passed"
-                }
-            ], 
+            "dupDict": [], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "slc7_amd64_gcc10", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/12.4-sun-23/CMSSW_12_4_X_2023-04-02-2300/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "hlt_tests": "inprogress"
         }, 
         {
