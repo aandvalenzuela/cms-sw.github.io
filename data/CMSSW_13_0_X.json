@@ -158,12 +158,12 @@
                     }
                 }, 
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc11", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3767, 
+                        "num_passed": 3906, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -174,7 +174,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 6, 
+                        "num_passed": 206, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -185,9 +185,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3104, 
-                        "known_failed": 0, 
-                        "num_failed": 58
+                        "num_passed": 3131, 
+                        "known_failed": 54, 
+                        "num_failed": 4
                     }
                 }, 
                 {
@@ -196,8 +196,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 88, 
-                        "known_failed": 0, 
+                        "num_passed": 300, 
+                        "known_failed": 9, 
                         "num_failed": 0
                     }
                 }
