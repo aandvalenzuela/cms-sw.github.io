@@ -108,6 +108,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.888",
+        "known_error": 0,
+        "name": "RunJetHT2018D+RunJetHT2018D+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018_skimJetHT_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 106
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 1293
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "139.003",
         "known_error": 0,
         "name": "RunHLTPhy2021+RunHLTPhy2021+HLTDR3_2022+RECODR3_reHLT_HLTPhysics_Offline+HARVESTD2021HLTPhy",
@@ -159,6 +187,47 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "39496.0",
+        "known_error": 0,
+        "name": "CloseByPGun_CE_E_Front_120um+2026D88+CE_E_Front_120um_GenSimHLBeamSpotHGCALCloseByINPUT+DigiTrigger+RecoGlobal+HARVESTGlobal",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 251
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "39661.97",
+        "known_error": 0,
+        "name": "PREMIXUP26D88_PU25+2026D88PU_PMXS1+PREMIX_PremixHLBeamSpotPU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
             }
         ]
     }
