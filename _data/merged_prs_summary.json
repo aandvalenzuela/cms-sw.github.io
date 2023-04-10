@@ -27678,8 +27678,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/mon/12.6-mon-11/CMSSW_12_6_X_2023-04-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2601, 
-                            "known_failed": 54, 
+                            "num_passed": 3219, 
+                            "known_failed": 56, 
                             "num_failed": 1
                         }
                     }, 
@@ -27689,7 +27689,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/mon/12.6-mon-11/CMSSW_12_6_X_2023-04-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1821, 
+                            "num_passed": 3409, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -30211,7 +30211,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.0-mon-11/CMSSW_13_0_X_2023-04-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3308, 
+                            "num_passed": 3753, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -30222,7 +30222,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/mon/13.0-mon-11/CMSSW_13_0_X_2023-04-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3258, 
+                            "num_passed": 3730, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -32963,6 +32963,42 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "smuzaffar"
+                    }, 
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_13_1_X", 
@@ -33654,7 +33690,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -34616,6 +34689,42 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "smuzaffar"
+                    }, 
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_13_1_X", 
@@ -35218,13 +35327,13 @@
                         "author_login": "bsunanda"
                     }, 
                     {
-                        "hash": "45329c08e0b5810c8cc487a6bc148125b3031f77", 
-                        "title": "Switch to std::chrono::steady_clock", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/41291", 
-                        "number": "41291", 
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "4b0b773e195eeb72b6ec146de1982d9f40a5b2dc", 
@@ -35236,6 +35345,15 @@
                         "author_login": "bsunanda"
                     }, 
                     {
+                        "hash": "45329c08e0b5810c8cc487a6bc148125b3031f77", 
+                        "title": "Switch to std::chrono::steady_clock", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41291", 
+                        "number": "41291", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "16dd97839bcb303fe8f637237c15954ada19aa73", 
                         "title": "Timing Service now measures time not running a Module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/41262", 
@@ -35243,6 +35361,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }, 
                     {
                         "hash": "81cf2ad9b01d7240bed2b243f7a1251e0a63d57e", 
@@ -35279,6 +35406,24 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "yuanchao"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
                     }
                 ], 
                 "base_branch": "CMSSW_13_1_X", 
@@ -35435,6 +35580,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "93daef6ff99ce78bc51fb4683eacf5846d9fb02f", 
+                        "title": "Concurrently run beginStreams", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35230", 
+                        "number": "35230", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "802b6c999799af321ef6c928e12a9dcdc456409f", 
                         "title": "Run ES modules concurrently [CMSSW_11_2_DEVEL_X]", 
                         "url": "https://github.com/cms-sw/cmssw/pull/30145", 
@@ -35442,6 +35605,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "43e84aac1e58fee67927b1b8c5d464d6d112ebcd", 
+                        "title": "Update DQMServices for protobuf 3.6.1.2 and tensorflow interfaces for TF 1.13.1 (copy of 25889)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26689", 
+                        "number": "26689", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "mrodozov"
                     }, 
                     {
                         "hash": "b4653fa9b6abde3a7ec7ee6bd1d3a62539311ce4", 
@@ -35453,82 +35625,10 @@
                         "author_login": "fabiocos"
                     }, 
                     {
-                        "hash": "93daef6ff99ce78bc51fb4683eacf5846d9fb02f", 
-                        "title": "Concurrently run beginStreams", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35230", 
-                        "number": "35230", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "5aa9ad6253e3effd9e22ef0537faeaedc5d54c7b", 
-                        "title": "[XrdAdaptor] Delay additional source acquisition when redirect limit error is returned.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/35498", 
-                        "number": "35498", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "osschar"
-                    }, 
-                    {
-                        "hash": "b2fbf832485d8a011aeefa4fa6f33c049032162a", 
-                        "title": "[XrdAdaptor] Modifications for xrootd-5.3", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/34700", 
-                        "number": "34700", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "osschar"
-                    }, 
-                    {
                         "hash": "8c583d5f8e44d8ebdd7c03113e782894afd88474", 
                         "title": "Update clang headers location and changed interfaces", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27663", 
                         "number": "27663", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "mrodozov"
-                    }, 
-                    {
-                        "hash": "c1886c29be0d9d799e335dc4d6a5aa02c3a919a6", 
-                        "title": "restrict FastTimerService to default arena", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33126", 
-                        "number": "33126", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "dan131riley"
-                    }, 
-                    {
-                        "hash": "2db3b92c6fad5baae34a96b7889d290a09408706", 
-                        "title": "Use python3 in cmsRun in DEVEL build ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26401", 
-                        "number": "26401", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "davidlange6"
-                    }, 
-                    {
-                        "hash": "58b7349666c1dcd94cfc8c2d68ced3a74d05ee45", 
-                        "title": "Remove CMS custom hacks for Oracle OCCI old C++ ABI compatibility", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25691", 
-                        "number": "25691", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "mrodozov"
-                    }, 
-                    {
-                        "hash": "dab137cb528d7ee190a7d77c3f094e2d123b7ef6", 
-                        "title": "Revert TF changes on DEVEL", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27710", 
-                        "number": "27710", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "mrodozov"
-                    }, 
-                    {
-                        "hash": "43e84aac1e58fee67927b1b8c5d464d6d112ebcd", 
-                        "title": "Update DQMServices for protobuf 3.6.1.2 and tensorflow interfaces for TF 1.13.1 (copy of 25889)", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26689", 
-                        "number": "26689", 
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "mrodozov"
@@ -35579,13 +35679,58 @@
                         "author_login": "iarspider"
                     }, 
                     {
-                        "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
-                        "title": "Change devel build to use pybind11 for cmsRun", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/25975", 
-                        "number": "25975", 
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "5aa9ad6253e3effd9e22ef0537faeaedc5d54c7b", 
+                        "title": "[XrdAdaptor] Delay additional source acquisition when redirect limit error is returned.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/35498", 
+                        "number": "35498", 
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
-                        "author_login": "cms-sw"
+                        "author_login": "osschar"
+                    }, 
+                    {
+                        "hash": "2db3b92c6fad5baae34a96b7889d290a09408706", 
+                        "title": "Use python3 in cmsRun in DEVEL build ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26401", 
+                        "number": "26401", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "davidlange6"
+                    }, 
+                    {
+                        "hash": "dab137cb528d7ee190a7d77c3f094e2d123b7ef6", 
+                        "title": "Revert TF changes on DEVEL", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27710", 
+                        "number": "27710", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "mrodozov"
+                    }, 
+                    {
+                        "hash": "b2fbf832485d8a011aeefa4fa6f33c049032162a", 
+                        "title": "[XrdAdaptor] Modifications for xrootd-5.3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/34700", 
+                        "number": "34700", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "osschar"
+                    }, 
+                    {
+                        "hash": "58b7349666c1dcd94cfc8c2d68ced3a74d05ee45", 
+                        "title": "Remove CMS custom hacks for Oracle OCCI old C++ ABI compatibility", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25691", 
+                        "number": "25691", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "mrodozov"
                     }, 
                     {
                         "hash": "360ca4bf1e5f9ae81b2d6eee1764855f9e517004", 
@@ -35595,6 +35740,42 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "osschar"
+                    }, 
+                    {
+                        "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
+                        "title": "Change devel build to use pybind11 for cmsRun", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/25975", 
+                        "number": "25975", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "c1886c29be0d9d799e335dc4d6a5aa02c3a919a6", 
+                        "title": "restrict FastTimerService to default arena", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33126", 
+                        "number": "33126", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "dan131riley"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
                     }
                 ], 
                 "base_branch": "CMSSW_13_1_DEVEL_X", 
@@ -36534,7 +36715,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -37062,7 +37280,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -37590,7 +37845,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -38496,7 +38788,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -39942,7 +40271,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -40901,6 +41267,24 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "95245592213e4b3620bb0cc1651cf63e2c8eb802", 
+                        "title": "[ROOT6] Fix int type in NanoAD plugins for ROOT6 IB", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40545", 
+                        "number": "40545", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "aandvalenzuela"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "6fc21a4c45e5ea108e77e378873384bc5d853959", 
                         "title": "[RFC] Add RNTuple NanoAOD output module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33825", 
@@ -40910,13 +41294,31 @@
                         "author_login": "mxxo"
                     }, 
                     {
-                        "hash": "95245592213e4b3620bb0cc1651cf63e2c8eb802", 
-                        "title": "[ROOT6] Fix int type in NanoAD plugins for ROOT6 IB", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/40545", 
-                        "number": "40545", 
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
                         "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "aandvalenzuela"
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_13_1_ROOT6_X", 
@@ -41875,7 +42277,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -41962,14 +42401,21 @@
                 "dupDict": [
                     {
                         "arch": "el8_amd64_gcc11", 
-                        "passed": "passed"
+                        "passed": "error"
                     }
                 ], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "el8_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/sun/13.1.SKYLAKEAVX512-sun-23/CMSSW_13_1_SKYLAKEAVX512_X_2023-04-09-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "not-found"
             }, 
             {
@@ -42505,6 +42951,42 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "smuzaffar"
+                    }, 
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
                     }
                 ], 
                 "base_branch": "CMSSW_13_1_X", 
@@ -43183,7 +43665,44 @@
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_1_X", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                        "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                        "number": "41306", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5844789dfb66bcfc70d684241e9e4ce8723a03cf", 
+                        "title": "Phase2-TB70 Add a simulation setup for radiation hardness studies of HGCal wafers", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41263", 
+                        "number": "41263", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "f302bf4ba29aa6db6dab4818a4e49046d5e31af1", 
+                        "title": "Run3-gex158D Replace std::cout with edm::LogVerbatim in Geometry/MuonNumbering", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41304", 
+                        "number": "41304", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "242124d7c549f1084905b27cadb74d7f03d48075", 
+                        "title": "Phase2-hgx337 The first entry of the V18 version of HGCal geometry", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/41278", 
+                        "number": "41278", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -43258,7 +43777,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.1-mon-11/CMSSW_13_1_X_2023-04-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3334, 
+                            "num_passed": 3711, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -43269,7 +43788,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/mon/13.1-mon-11/CMSSW_13_1_X_2023-04-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1694, 
+                            "num_passed": 3694, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
