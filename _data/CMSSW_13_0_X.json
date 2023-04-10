@@ -137,9 +137,11 @@
                 }, 
                 {
                     "arch": "el8_ppc64le_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el8_ppc64le_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
                 }
             ], 
             "ib_date": "2023-04-09-2300-0000", 
@@ -161,7 +163,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3715, 
+                        "num_passed": 3767, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -183,9 +185,20 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3045, 
-                        "known_failed": 54, 
-                        "num_failed": 4
+                        "num_passed": 3104, 
+                        "known_failed": 0, 
+                        "num_failed": 58
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "el8_ppc64le_gcc11", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 88, 
+                        "known_failed": 0, 
+                        "num_failed": 0
                     }
                 }
             ], 
