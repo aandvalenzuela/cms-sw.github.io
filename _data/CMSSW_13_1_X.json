@@ -109,7 +109,19 @@
                 }
             ], 
             "ib_date": "2023-04-10-1100-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/mon/13.1-mon-11/CMSSW_13_1_X_2023-04-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
             "release_queue": "CMSSW_13_1_X", 
             "comp_baseline": "not-found", 
             "release_name": "CMSSW_13_1_X_2023-04-10-1100", 
@@ -314,12 +326,12 @@
                 {
                     "done": false, 
                     "arch": "el8_ppc64le_gcc11", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/sun/13.1-sun-23/CMSSW_13_1_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 785, 
-                        "known_failed": 11, 
-                        "num_failed": 0
+                        "num_passed": 1433, 
+                        "known_failed": 0, 
+                        "num_failed": 11
                     }
                 }
             ], 
