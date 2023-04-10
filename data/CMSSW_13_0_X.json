@@ -96,7 +96,10 @@
             "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "found", 
-            "reco_event_loop": "inprogress", 
+            "reco_event_loop": {
+                "status": "passed", 
+                "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
+            }, 
             "profiling": "found", 
             "crab_tests": "passed", 
             "base_branch": "CMSSW_13_0_X", 
@@ -180,25 +183,25 @@
                     }
                 }, 
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "el8_aarch64_gcc11", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3684, 
+                        "num_passed": 3704, 
                         "known_failed": 56, 
                         "num_failed": 4
                     }
                 }, 
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "el8_ppc64le_gcc11", 
-                    "passed": false, 
+                    "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/sun/13.0-sun-23/CMSSW_13_0_X_2023-04-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2900, 
-                        "known_failed": 0, 
-                        "num_failed": 54
+                        "num_passed": 3666, 
+                        "known_failed": 56, 
+                        "num_failed": 0
                     }
                 }
             ], 
