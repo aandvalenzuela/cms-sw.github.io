@@ -40,6 +40,15 @@
                     "author_login": "dan131riley"
                 }, 
                 {
+                    "hash": "a4517dcc981ca4283127e3944ffcfe01ec2b5c4b", 
+                    "title": "Add L1 Stage2 Digis to Cosmics AOD event content", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41149", 
+                    "number": "41149", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "eyigitba"
+                }, 
+                {
                     "hash": "7a3a15df8d7e392f2e1394ca2120e5c5f2e6512c", 
                     "title": "Modernize / optimize `DisappearingMuonsSkimming`", 
                     "url": "https://github.com/cms-sw/cmssw/pull/41225", 
@@ -119,14 +128,14 @@
             "ib_date": "2023-04-10-2300-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "el8_amd64_gcc11", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.1.ASAN-mon-23/CMSSW_13_1_ASAN_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3931, 
-                        "known_failed": 0, 
-                        "num_failed": 8
+                        "num_passed": 3957, 
+                        "known_failed": 3, 
+                        "num_failed": 5
                     }
                 }
             ], 
