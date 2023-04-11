@@ -90,9 +90,11 @@
             "utests": [
                 {
                     "arch": "el8_amd64_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.1.ASAN-mon-23/CMSSW_13_1_ASAN_X_2023-04-10-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.1.ASAN-mon-23/CMSSW_13_1_ASAN_X_2023-04-10-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "9"
+                    }
                 }
             ], 
             "ib_date": "2023-04-10-2300-0000", 
@@ -103,9 +105,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.1.ASAN-mon-23/CMSSW_13_1_ASAN_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2906, 
-                        "known_failed": 2, 
-                        "num_failed": 4
+                        "num_passed": 3180, 
+                        "known_failed": 0, 
+                        "num_failed": 6
                     }
                 }
             ], 
