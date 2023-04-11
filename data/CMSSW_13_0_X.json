@@ -116,7 +116,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.0-tue-11/CMSSW_13_0_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2387, 
+                        "num_passed": 3585, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -127,7 +127,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/tue/13.0-tue-11/CMSSW_13_0_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 597, 
+                        "num_passed": 2503, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -346,7 +346,10 @@
             ], 
             "material_budget_v2": "not-found", 
             "check-headers": "passed", 
-            "static_checks_v2": "inprogress", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "el8_amd64_gcc11"
+            }, 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [
@@ -364,7 +367,7 @@
                 }
             ], 
             "lizard": "found", 
-            "static_checks": "inprogress", 
+            "static_checks": "el8_amd64_gcc11:", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [
