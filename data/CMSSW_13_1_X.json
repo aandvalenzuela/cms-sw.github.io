@@ -842,7 +842,7 @@
                     "details": {}
                 }
             ], 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "passed"
         }, 
         {
             "comp_baseline_state": "errors", 
@@ -3098,44 +3098,7 @@
                         "author_login": "cms-sw"
                     }
                 ], 
-                "el8_aarch64_gcc11": [
-                    {
-                        "hash": "c1111ef8e088640ab3e10f1e84c852e58bd7e52d", 
-                        "title": "Updated root to tip of branch v6-26-00-patches", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8426", 
-                        "number": "8426", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "iarspider"
-                    }, 
-                    {
-                        "hash": "f599fb191ad27316d4d411261d404cd1d6e1ab23", 
-                        "title": "bump crab-dev to latest tag", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8427", 
-                        "number": "8427", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "belforte"
-                    }, 
-                    {
-                        "hash": "9848239ce1d996759c0ba6a3160721a4ebf0593d", 
-                        "title": "Update tag for RecoBTag-Combined to V01-15-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8422", 
-                        "number": "8422", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "446b786cc872e68f0e332deb02a1556c53ab50bb", 
-                        "title": "[PGO] Initial changes to support PGO builds", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8420", 
-                        "number": "8420", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }
-                ]
+                "el8_aarch64_gcc11": []
             }, 
             "cmsdist_compared_tags": {
                 "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-1600/el8_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el8_amd64_gcc11", 
@@ -3144,7 +3107,7 @@
                 "el8_ppc64le_gcc11": "IB/CMSSW_13_1_X_2023-04-03-2300/el8_ppc64le_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el8_ppc64le_gcc11", 
                 "el9_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-2300/el9_aarch64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el9_aarch64_gcc11", 
                 "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-1100/slc7_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/slc7_amd64_gcc11", 
-                "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-03-2300/el8_aarch64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el8_aarch64_gcc11"
+                "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-2300/el8_aarch64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el8_aarch64_gcc11"
             }, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
@@ -3781,7 +3744,6 @@
             "python3_tests": [], 
             "tests_archs": [
                 "el9_amd64_gcc11", 
-                "el8_aarch64_gcc11", 
                 "el8_ppc64le_gcc11", 
                 "slc7_amd64_gcc11", 
                 "el8_amd64_gcc11"
@@ -3789,16 +3751,14 @@
             "gpu_utests": [], 
             "cmsdist_merged_prs": {
                 "el9_amd64_gcc11": [], 
-                "slc7_amd64_gcc11": [], 
                 "el8_ppc64le_gcc11": [], 
-                "el8_aarch64_gcc11": [], 
+                "slc7_amd64_gcc11": [], 
                 "el8_amd64_gcc11": []
             }, 
             "cmsdist_compared_tags": {
                 "el9_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-03-2300/el9_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-03-2300/el9_amd64_gcc11", 
-                "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-03-2300/slc7_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-03-2300/slc7_amd64_gcc11", 
                 "el8_ppc64le_gcc11": "IB/CMSSW_13_1_X_2023-04-03-2300/el8_ppc64le_gcc11..IB/CMSSW_13_1_X_2023-04-03-2300/el8_ppc64le_gcc11", 
-                "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-03-2300/el8_aarch64_gcc11..IB/CMSSW_13_1_X_2023-04-03-2300/el8_aarch64_gcc11", 
+                "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-03-2300/slc7_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-03-2300/slc7_amd64_gcc11", 
                 "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-03-0500/el8_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-03-2300/el8_amd64_gcc11"
             }, 
             "static_checks_failures": "not-found", 
@@ -3852,14 +3812,6 @@
                     }
                 }, 
                 {
-                    "arch": "el8_aarch64_gcc11", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-03-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "1"
-                    }
-                }, 
-                {
                     "arch": "el8_ppc64le_gcc11", 
                     "passed": "failed", 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-03-2300/unitTests-summary.log", 
@@ -3901,17 +3853,6 @@
                         "num_passed": 2330, 
                         "known_failed": 0, 
                         "num_failed": 793
-                    }
-                }, 
-                {
-                    "done": true, 
-                    "arch": "el8_aarch64_gcc11", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-03-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2194, 
-                        "known_failed": 56, 
-                        "num_failed": 770
                     }
                 }, 
                 {
@@ -3995,14 +3936,6 @@
                     }
                 }, 
                 {
-                    "arch": "el8_aarch64_gcc11", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-03-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 342
-                    }
-                }, 
-                {
                     "arch": "el8_ppc64le_gcc11", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-03-2300/new/logAnalysis.pkl", 
@@ -4022,10 +3955,6 @@
             "dupDict": [
                 {
                     "arch": "el9_amd64_gcc11", 
-                    "passed": "passed"
-                }, 
-                {
-                    "arch": "el8_aarch64_gcc11", 
                     "passed": "passed"
                 }, 
                 {
@@ -4062,12 +3991,6 @@
                     "arch": "el9_amd64_gcc11", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-03-2300/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "el8_aarch64_gcc11", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-03-2300/addOnTests.log", 
                     "details": {}
                 }, 
                 {
