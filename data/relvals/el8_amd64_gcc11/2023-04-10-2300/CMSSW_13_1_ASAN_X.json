@@ -13,6 +13,19 @@
         ]
     },
     {
+        "exitcode": 31744,
+        "id": "573.0",
+        "known_error": 0,
+        "name": "sherpa_ttbar_2j_MENLOPS_13TeV_MASTER_ExtGen",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
         "exitcode": 256,
         "id": "21034.114",
         "known_error": 0,
@@ -73,6 +86,21 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 8
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "511.0",
+        "known_error": 1,
+        "known_error_message": "Grid-packs missing asan and non-asan shared libraries",
+        "known_failed_step": 1,
+        "name": "QCD_Pt-30_13TeV_aMCatNLO_herwig7",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
             }
         ]
     },
@@ -3514,6 +3542,29 @@
     },
     {
         "exitcode": 0,
+        "id": "133.0",
+        "known_error": 0,
+        "name": "RSGrav",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 77
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 161
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 289
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.0",
         "known_error": 0,
         "name": "MinimumBiasBS",
@@ -4515,6 +4566,34 @@
             },
             {
                 "errors": 26,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.99601",
+        "known_error": 0,
+        "name": "RunJetHT2015HLHS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 167
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 792
+            },
+            {
+                "errors": 2,
                 "status": "PASSED",
                 "warnings": 4
             }
