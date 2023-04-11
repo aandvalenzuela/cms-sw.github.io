@@ -3444,26 +3444,7 @@
             ], 
             "gpu_utests": [], 
             "cmsdist_merged_prs": {
-                "el8_amd64_gcc11": [
-                    {
-                        "hash": "c1111ef8e088640ab3e10f1e84c852e58bd7e52d", 
-                        "title": "Updated root to tip of branch v6-26-00-patches", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8426", 
-                        "number": "8426", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "iarspider"
-                    }, 
-                    {
-                        "hash": "f599fb191ad27316d4d411261d404cd1d6e1ab23", 
-                        "title": "bump crab-dev to latest tag", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8427", 
-                        "number": "8427", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "belforte"
-                    }
-                ], 
+                "el8_amd64_gcc11": [], 
                 "el8_amd64_gcc12": [], 
                 "el9_amd64_gcc11": [], 
                 "el8_ppc64le_gcc11": [], 
@@ -3472,7 +3453,7 @@
                 "el8_aarch64_gcc11": []
             }, 
             "cmsdist_compared_tags": {
-                "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-1600/el8_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el8_amd64_gcc11", 
+                "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-2300/el8_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el8_amd64_gcc11", 
                 "el8_amd64_gcc12": "ERR/CMSSW_13_1_X_2023-04-04-2300/el8_amd64_gcc12..ERR/CMSSW_13_1_X_2023-04-04-2300/el8_amd64_gcc12", 
                 "el9_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-2300/el9_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el9_amd64_gcc11", 
                 "el8_ppc64le_gcc11": "IB/CMSSW_13_1_X_2023-04-04-2300/el8_ppc64le_gcc11..IB/CMSSW_13_1_X_2023-04-04-2300/el8_ppc64le_gcc11", 
@@ -3804,16 +3785,10 @@
         {
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
-            "tests_archs": [
-                "el8_amd64_gcc11"
-            ], 
+            "tests_archs": [], 
             "gpu_utests": [], 
-            "cmsdist_merged_prs": {
-                "el8_amd64_gcc11": []
-            }, 
-            "cmsdist_compared_tags": {
-                "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-1600/el8_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-04-1600/el8_amd64_gcc11"
-            }, 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
                 "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-04-1600/el8_amd64_gcc11"
@@ -3835,30 +3810,9 @@
             "base_branch": "CMSSW_13_1_X", 
             "compared_tags": "CMSSW_13_1_X_2023-04-04-1100-->CMSSW_13_1_X_2023-04-04-1600", 
             "dqm_tests": "not-found", 
-            "utests": [
-                {
-                    "arch": "el8_amd64_gcc11", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.1-tue-16/CMSSW_13_1_X_2023-04-04-1600/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2023-04-04-1600-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "el8_amd64_gcc11", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.1-tue-16/CMSSW_13_1_X_2023-04-04-1600/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3978, 
-                        "known_failed": 0, 
-                        "num_failed": 1
-                    }
-                }
-            ], 
+            "relvals": [], 
             "release_queue": "CMSSW_13_1_X", 
             "comp_baseline": "not-found", 
             "release_name": "CMSSW_13_1_X_2023-04-04-1600", 
@@ -3883,25 +3837,9 @@
                     "author_login": "bsunanda"
                 }
             ], 
-            "fwlite": [
-                {
-                    "arch": "el8_amd64_gcc11", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.1-tue-16/CMSSW_13_1_X_2023-04-04-1600/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "fwlite": [], 
             "invalid_includes": [], 
-            "builds": [
-                {
-                    "arch": "el8_amd64_gcc11", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.1-tue-16/CMSSW_13_1_X_2023-04-04-1600/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 34
-                    }
-                }
-            ], 
+            "builds": [], 
             "material_budget_v2": "not-found", 
             "check-headers": "passed", 
             "static_checks_v2": {
@@ -3910,24 +3848,12 @@
             }, 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "el8_amd64_gcc11", 
-                    "passed": "passed"
-                }
-            ], 
+            "dupDict": [], 
             "lizard": "found", 
             "static_checks": "el8_amd64_gcc11:", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "el8_amd64_gcc11", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.1-tue-16/CMSSW_13_1_X_2023-04-04-1600/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "hlt_tests": "passed"
         }, 
         {
