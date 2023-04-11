@@ -27666,7 +27666,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/tue/12.6-tue-11/CMSSW_12_6_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3552, 
+                            "num_passed": 3855, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -30297,13 +30297,19 @@
                     "slc7_amd64_gcc11": "IB/CMSSW_13_0_X_2023-04-09-0000/slc7_amd64_gcc11", 
                     "el8_amd64_gcc11": "IB/CMSSW_13_0_X_2023-04-09-0000/el8_amd64_gcc11"
                 }, 
-                "piechart": "inprogress", 
+                "piechart": {
+                    "status": "passed", 
+                    "data": "el8_amd64_gcc11/11834.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
+                }, 
                 "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "found", 
-                "reco_event_loop": "inprogress", 
-                "profiling": "inprogress", 
+                "reco_event_loop": {
+                    "status": "passed", 
+                    "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
+                }, 
+                "profiling": "found", 
                 "crab_tests": "passed", 
                 "base_branch": "CMSSW_13_0_X", 
                 "compared_tags": "CMSSW_13_0_X_2023-04-10-2300-->CMSSW_13_0_X_2023-04-11-1100", 
@@ -30329,12 +30335,12 @@
                 "ib_date": "2023-04-11-1100-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "el8_amd64_gcc11", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.0-tue-11/CMSSW_13_0_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3794, 
+                            "num_passed": 3902, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -30345,7 +30351,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/tue/13.0-tue-11/CMSSW_13_0_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2710, 
+                            "num_passed": 2813, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -43876,7 +43882,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.1.UBSAN-mon-23/CMSSW_13_1_UBSAN_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 635, 
+                            "num_passed": 859, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -44609,7 +44615,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.1-tue-11/CMSSW_13_1_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3662, 
+                            "num_passed": 3674, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -44620,7 +44626,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/tue/13.1-tue-11/CMSSW_13_1_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3629, 
+                            "num_passed": 3697, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
