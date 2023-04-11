@@ -230,6 +230,14 @@
                     }
                 }, 
                 {
+                    "arch": "el9_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }, 
+                {
                     "arch": "el8_aarch64_gcc11", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/unitTests-summary.log", 
@@ -244,36 +252,63 @@
                     "details": {
                         "num_fails": "1"
                     }
-                }, 
-                {
-                    "arch": "el9_amd64_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el9_amd64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/new/logAnalysis.pkl']", 
-                    "details": {}
                 }
             ], 
             "ib_date": "2023-04-10-2300-0000", 
             "relvals": [
                 {
                     "done": false, 
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 4, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "el9_amd64_gcc11", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
                     "arch": "el8_aarch64_gcc11", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1785, 
-                        "known_failed": 0, 
-                        "num_failed": 56
+                        "num_passed": 2308, 
+                        "known_failed": 54, 
+                        "num_failed": 2
                     }
                 }, 
                 {
                     "done": false, 
                     "arch": "el8_ppc64le_gcc11", 
-                    "passed": false, 
+                    "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/mon/13.1-mon-23/CMSSW_13_1_X_2023-04-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 668, 
-                        "known_failed": 0, 
-                        "num_failed": 1
+                        "num_passed": 754, 
+                        "known_failed": 5, 
+                        "num_failed": 0
                     }
                 }
             ], 
