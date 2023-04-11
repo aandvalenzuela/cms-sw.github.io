@@ -128,12 +128,12 @@
                     }
                 }, 
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc11", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/tue/13.0-tue-11/CMSSW_13_0_X_2023-04-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3822, 
+                        "num_passed": 3906, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -396,7 +396,7 @@
                     "details": {}
                 }
             ], 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "passed"
         }, 
         {
             "comp_baseline_state": "errors", 
