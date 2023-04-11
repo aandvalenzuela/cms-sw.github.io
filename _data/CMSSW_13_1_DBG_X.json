@@ -86,13 +86,22 @@
                     "author_login": "bsunanda"
                 }, 
                 {
-                    "hash": "45329c08e0b5810c8cc487a6bc148125b3031f77", 
-                    "title": "Switch to std::chrono::steady_clock", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/41291", 
-                    "number": "41291", 
+                    "hash": "3a7e4a433717213e12d7891792660b9db82c424a", 
+                    "title": "remove erroneous call to global ROOT reset", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41289", 
+                    "number": "41289", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
+                    "author_login": "dan131riley"
+                }, 
+                {
+                    "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
+                    "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41306", 
+                    "number": "41306", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gartung"
                 }, 
                 {
                     "hash": "16dd97839bcb303fe8f637237c15954ada19aa73", 
@@ -158,13 +167,13 @@
                     "author_login": "bsunanda"
                 }, 
                 {
-                    "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
-                    "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/41306", 
-                    "number": "41306", 
+                    "hash": "7a3a15df8d7e392f2e1394ca2120e5c5f2e6512c", 
+                    "title": "Modernize / optimize `DisappearingMuonsSkimming`", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41225", 
+                    "number": "41225", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "gartung"
+                    "author_login": "mmusich"
                 }, 
                 {
                     "hash": "21a2503389e16a83ddb249906d35d3f2ac0fad64", 
@@ -174,6 +183,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "45329c08e0b5810c8cc487a6bc148125b3031f77", 
+                    "title": "Switch to std::chrono::steady_clock", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41291", 
+                    "number": "41291", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
                 }
             ], 
             "base_branch": "CMSSW_13_1_X", 
