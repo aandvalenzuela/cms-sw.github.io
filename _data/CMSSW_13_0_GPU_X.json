@@ -7,7 +7,17 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
-                "el8_amd64_gcc11": []
+                "el8_amd64_gcc11": [
+                    {
+                        "hash": "802764645721ca1bd977c402f71212f1a527a1c7", 
+                        "title": "Update tag for RecoBTag-Combined to V01-15-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8436", 
+                        "number": "8436", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "el8_amd64_gcc11": "IB/CMSSW_13_0_GPU_X_2023-04-09-2300/el8_amd64_gcc11..IB/CMSSW_13_0_X/master"
@@ -47,6 +57,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "youyingli"
+                }, 
+                {
+                    "hash": "3c15acd4466d740efc955782a50dd2aebcf45604", 
+                    "title": "Backport to CMSSW_13_0_X of new extended ParticleNet networks for jet classification, regression, and taus", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41265", 
+                    "number": "41265", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "scooperstein"
                 }
             ], 
             "base_branch": "CMSSW_13_0_X", 
