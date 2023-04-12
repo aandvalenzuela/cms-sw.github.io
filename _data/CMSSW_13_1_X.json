@@ -8,13 +8,92 @@
             "tests_archs": [], 
             "gpu_utests": [], 
             "cmsdist_merged_prs": {
-                "el8_amd64_gcc11": [], 
-                "el8_amd64_gcc12": [], 
-                "el9_amd64_gcc11": [], 
-                "el8_ppc64le_gcc11": [], 
-                "el9_aarch64_gcc11": [], 
-                "slc7_amd64_gcc11": [], 
-                "el8_aarch64_gcc11": []
+                "el8_amd64_gcc11": [
+                    {
+                        "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                        "title": "Updated root to tip of branch v6-26-00-patches", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                        "number": "8435", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "iarspider"
+                    }
+                ], 
+                "el8_amd64_gcc12": [
+                    {
+                        "hash": "8acc5b8d8e8fa7c0447cf2d79621a3ff7fd5d7a4", 
+                        "title": "Update onnxruntime to 1.14.1", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8397", 
+                        "number": "8397", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                        "title": "Updated root to tip of branch v6-26-00-patches", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                        "number": "8435", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "iarspider"
+                    }
+                ], 
+                "el9_amd64_gcc11": [
+                    {
+                        "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                        "title": "Updated root to tip of branch v6-26-00-patches", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                        "number": "8435", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "iarspider"
+                    }
+                ], 
+                "el8_ppc64le_gcc11": [
+                    {
+                        "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                        "title": "Updated root to tip of branch v6-26-00-patches", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                        "number": "8435", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "iarspider"
+                    }
+                ], 
+                "el9_aarch64_gcc11": [
+                    {
+                        "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                        "title": "Updated root to tip of branch v6-26-00-patches", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                        "number": "8435", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "iarspider"
+                    }
+                ], 
+                "slc7_amd64_gcc11": [
+                    {
+                        "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                        "title": "Updated root to tip of branch v6-26-00-patches", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                        "number": "8435", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "iarspider"
+                    }
+                ], 
+                "el8_aarch64_gcc11": [
+                    {
+                        "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                        "title": "Updated root to tip of branch v6-26-00-patches", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                        "number": "8435", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "iarspider"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/el8_amd64_gcc11..IB/CMSSW_13_1_X/master", 
