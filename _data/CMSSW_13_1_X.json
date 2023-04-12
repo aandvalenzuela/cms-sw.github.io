@@ -107,7 +107,10 @@
                 "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/el8_amd64_gcc11", 
                 "el8_amd64_gcc12": "ERR/CMSSW_13_1_X_2023-04-12-1100/el8_amd64_gcc12"
             }, 
-            "piechart": "inprogress", 
+            "piechart": {
+                "status": "passed", 
+                "data": "el8_amd64_gcc11/11834.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
+            }, 
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
