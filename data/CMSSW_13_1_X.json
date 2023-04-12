@@ -127,9 +127,11 @@
                 }, 
                 {
                     "arch": "el8_amd64_gcc12", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc12/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-04-12-1100/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-04-12-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "100"
+                    }
                 }
             ], 
             "ib_date": "2023-04-12-1100-0000", 
@@ -140,7 +142,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-04-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3857, 
+                        "num_passed": 3966, 
                         "known_failed": 0, 
                         "num_failed": 3
                     }
@@ -151,9 +153,20 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-04-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3846, 
+                        "num_passed": 3975, 
                         "known_failed": 0, 
                         "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "el8_amd64_gcc12", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-04-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 486, 
+                        "known_failed": 0, 
+                        "num_failed": 538
                     }
                 }
             ], 
