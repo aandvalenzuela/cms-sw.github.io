@@ -810,6 +810,56 @@
         ]
     },
     {
+        "exitcode": 16640,
+        "id": "10804.31",
+        "known_error": 1,
+        "known_error_message": "Triton Server Instance for non-x86_64",
+        "known_failed_step": 3,
+        "name": "SingleGammaPt10+2018_photonDRN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 2,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "10805.31",
+        "known_error": 1,
+        "known_error_message": "Triton Server Instance for non-x86_64",
+        "known_failed_step": 3,
+        "name": "SingleGammaPt35+2018_photonDRN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 61
+            },
+            {
+                "errors": 2,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
         "exitcode": 0,
         "id": "1.0",
         "known_error": 0,
@@ -16028,6 +16078,29 @@
     },
     {
         "exitcode": 0,
+        "id": "1303.17",
+        "known_error": 0,
+        "name": "ProdQCD_Pt_3000_3500_13UP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 68
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1304.18",
         "known_error": 0,
         "name": "ProdZEE13TeV2018miniAOD",
@@ -25441,6 +25514,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250202.118",
+        "known_error": 0,
+        "name": "ProdTTbar_13_pmx25ns",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 17921,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 173
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 41
             }
         ]
     },
