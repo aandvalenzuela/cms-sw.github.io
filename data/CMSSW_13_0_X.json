@@ -2646,16 +2646,13 @@
                 "status": "passed", 
                 "data": "el8_amd64_gcc11/11834.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
             }, 
-            "flawfinder": "found", 
+            "flawfinder": "inprogress", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "igprof": "found", 
-            "reco_event_loop": {
-                "status": "passed", 
-                "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
-            }, 
+            "igprof": "inprogress", 
+            "reco_event_loop": "inprogress", 
             "profiling": "found", 
-            "crab_tests": "passed", 
+            "crab_tests": "inprogress", 
             "base_branch": "CMSSW_13_0_X", 
             "compared_tags": "CMSSW_13_0_X_2023-04-03-1100-->CMSSW_13_0_X_2023-04-03-2300", 
             "dqm_tests": "not-found", 
@@ -2690,7 +2687,7 @@
             "invalid_includes": [], 
             "builds": [], 
             "material_budget_v2": "not-found", 
-            "check-headers": "passed", 
+            "check-headers": "inprogress", 
             "static_checks_v2": {
                 "status": "passed", 
                 "arch": "el8_amd64_gcc11"
@@ -2698,7 +2695,7 @@
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [], 
-            "lizard": "found", 
+            "lizard": "inprogress", 
             "static_checks": "el8_amd64_gcc11:", 
             "isIB": true, 
             "inProgress": false, 
@@ -2714,20 +2711,14 @@
             "cmsdist_compared_tags": {}, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {}, 
-            "piechart": {
-                "status": "passed", 
-                "data": "el8_amd64_gcc11/11834.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
-            }, 
-            "flawfinder": "found", 
+            "piechart": "inprogress", 
+            "flawfinder": "inprogress", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "igprof": "found", 
-            "reco_event_loop": {
-                "status": "passed", 
-                "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
-            }, 
-            "profiling": "found", 
-            "crab_tests": "passed", 
+            "igprof": "inprogress", 
+            "reco_event_loop": "inprogress", 
+            "profiling": "inprogress", 
+            "crab_tests": "inprogress", 
             "base_branch": "CMSSW_13_0_X", 
             "compared_tags": "CMSSW_13_0_X_2023-04-02-2300-->CMSSW_13_0_X_2023-04-03-1100", 
             "dqm_tests": "not-found", 
@@ -2743,20 +2734,17 @@
             "invalid_includes": [], 
             "builds": [], 
             "material_budget_v2": "not-found", 
-            "check-headers": "passed", 
-            "static_checks_v2": {
-                "status": "passed", 
-                "arch": "el8_amd64_gcc11"
-            }, 
+            "check-headers": "inprogress", 
+            "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [], 
-            "lizard": "found", 
-            "static_checks": "el8_amd64_gcc11:", 
+            "lizard": "inprogress", 
+            "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [], 
-            "hlt_tests": "passed"
+            "hlt_tests": "inprogress"
         }, 
         {
             "comp_baseline_state": "errors", 
@@ -2771,16 +2759,13 @@
                 "el8_ppc64le_gcc11": "IB/CMSSW_13_0_X_2023-04-02-2300/el8_ppc64le_gcc11", 
                 "el8_aarch64_gcc11": "IB/CMSSW_13_0_X_2023-04-02-2300/el8_aarch64_gcc11"
             }, 
-            "piechart": {
-                "status": "passed", 
-                "data": "el8_amd64_gcc11/11834.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
-            }, 
+            "piechart": "inprogress", 
             "flawfinder": "inprogress", 
             "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "inprogress", 
             "reco_event_loop": "inprogress", 
-            "profiling": "found", 
+            "profiling": "inprogress", 
             "crab_tests": "inprogress", 
             "base_branch": "CMSSW_13_0_X", 
             "compared_tags": "CMSSW_13_0_X_2023-04-02-0000-->CMSSW_13_0_X_2023-04-02-2300", 
@@ -2817,19 +2802,16 @@
             "builds": [], 
             "material_budget_v2": "not-found", 
             "check-headers": "inprogress", 
-            "static_checks_v2": {
-                "status": "passed", 
-                "arch": "el8_amd64_gcc11"
-            }, 
+            "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [], 
             "lizard": "inprogress", 
-            "static_checks": "el8_amd64_gcc11:", 
+            "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [], 
-            "hlt_tests": "passed"
+            "hlt_tests": "inprogress"
         }, 
         {
             "comp_baseline_state": "errors", 
@@ -2895,7 +2877,7 @@
             "isIB": true, 
             "inProgress": false, 
             "addons": [], 
-            "hlt_tests": "passed"
+            "hlt_tests": "inprogress"
         }, 
         {
             "comp_baseline_state": "errors", 
