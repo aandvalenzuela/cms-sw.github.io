@@ -49,7 +49,7 @@ Indexes can be also opened and closed manually by running Jenkins jobs [`es-open
 ### Scripts pushing data to OpenSearch:
 * Utilities script at [`es_utils.py`](https://github.com/cms-sw/cms-bot/blob/8d0096fd09c9e4bc2f0c7f62133567874cd43755/es_utils.py).
 * Jenkins jobs and queue information at [`parse_jenkins_builds.py`](https://github.com/cms-sw/cms-bot/blob/8d0096fd09c9e4bc2f0c7f62133567874cd43755/parse_jenkins_builds.py).
-* IBs logs at [es_ibs_log.py](https://github.com/cms-sw/cms-bot/blob/8d0096fd09c9e4bc2f0c7f62133567874cd43755/es_ibs_log.py).
+* IBs logs at [`es_ibs_log.py`](https://github.com/cms-sw/cms-bot/blob/8d0096fd09c9e4bc2f0c7f62133567874cd43755/es_ibs_log.py).
 
 *[More to come]*
 
