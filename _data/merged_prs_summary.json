@@ -27572,7 +27572,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/wed/12.6-wed-23/CMSSW_12_6_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3569, 
+                            "num_passed": 3691, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -29623,9 +29623,11 @@
                 "utests": [
                     {
                         "arch": "el8_amd64_gcc11", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0.GPU-wed-23/CMSSW_13_0_GPU_X_2023-04-12-2300/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0.GPU-wed-23/CMSSW_13_0_GPU_X_2023-04-12-2300/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2023-04-12-2300-0000", 
@@ -30413,10 +30415,10 @@
                 "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
-                "igprof": "inprogress", 
+                "igprof": "found", 
                 "reco_event_loop": "inprogress", 
                 "profiling": "inprogress", 
-                "crab_tests": "inprogress", 
+                "crab_tests": "passed", 
                 "base_branch": "CMSSW_13_0_X", 
                 "compared_tags": "CMSSW_13_0_X_2023-04-12-1100-->CMSSW_13_0_X_2023-04-12-2300", 
                 "dqm_tests": "not-found", 
@@ -30502,7 +30504,7 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "check-headers": "inprogress", 
+                "check-headers": "passed", 
                 "static_checks_v2": "inprogress", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
@@ -30520,11 +30522,17 @@
                         "passed": "passed"
                     }
                 ], 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
+                    {
+                        "arch": "el8_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0-wed-23/CMSSW_13_0_X_2023-04-12-2300/addOnTests.log", 
+                        "details": {}
+                    }, 
                     {
                         "arch": "slc7_amd64_gcc11", 
                         "passed": true, 
@@ -41707,13 +41715,27 @@
                 "utests": [
                     {
                         "arch": "el8_amd64_gcc11", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1.ROOT628-wed-23/CMSSW_13_1_ROOT628_X_2023-04-12-2300/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1.ROOT628-wed-23/CMSSW_13_1_ROOT628_X_2023-04-12-2300/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "2"
+                        }
                     }
                 ], 
                 "ib_date": "2023-04-12-2300-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "el8_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1.ROOT628-wed-23/CMSSW_13_1_ROOT628_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 5, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_13_1_ROOT628_X", 
                 "release_name": "CMSSW_13_1_ROOT628_X_2023-04-12-2300", 
@@ -42929,7 +42951,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1.ROOT6-wed-23/CMSSW_13_1_ROOT6_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 689, 
+                            "num_passed": 1654, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -45497,17 +45519,7 @@
                             "author_login": "iarspider"
                         }
                     ], 
-                    "slc7_amd64_gcc11": [
-                        {
-                            "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
-                            "title": "Updated root to tip of branch v6-26-00-patches", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
-                            "number": "8435", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "iarspider"
-                        }
-                    ], 
+                    "slc7_amd64_gcc11": [], 
                     "el8_aarch64_gcc11": []
                 }, 
                 "cmsdist_compared_tags": {
@@ -45516,7 +45528,7 @@
                     "el9_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/el9_amd64_gcc11..IB/CMSSW_13_1_X/cs9", 
                     "el8_ppc64le_gcc11": "IB/CMSSW_13_1_X_2023-04-12-2300/el8_ppc64le_gcc11..IB/CMSSW_13_1_X/master", 
                     "el9_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-11-2300/el9_aarch64_gcc11..IB/CMSSW_13_1_X/cs9", 
-                    "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/slc7_amd64_gcc11..IB/CMSSW_13_1_X/master", 
+                    "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-12-2300/slc7_amd64_gcc11..IB/CMSSW_13_1_X/master", 
                     "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-12-2300/el8_aarch64_gcc11..IB/CMSSW_13_1_X/master"
                 }, 
                 "static_checks_failures": "not-found", 
@@ -45579,11 +45591,23 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [
+                    "slc7_amd64_gcc11", 
                     "el8_ppc64le_gcc11", 
                     "el8_aarch64_gcc11"
                 ], 
                 "gpu_utests": [], 
                 "cmsdist_merged_prs": {
+                    "el8_aarch64_gcc11": [
+                        {
+                            "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
+                            "title": "Updated root to tip of branch v6-26-00-patches", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/8435", 
+                            "number": "8435", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "iarspider"
+                        }
+                    ], 
                     "el8_ppc64le_gcc11": [
                         {
                             "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
@@ -45595,7 +45619,7 @@
                             "author_login": "iarspider"
                         }
                     ], 
-                    "el8_aarch64_gcc11": [
+                    "slc7_amd64_gcc11": [
                         {
                             "hash": "6c5ac225805fdebd158ce9ed6c3f4ebbf356a032", 
                             "title": "Updated root to tip of branch v6-26-00-patches", 
@@ -45608,13 +45632,15 @@
                     ]
                 }, 
                 "cmsdist_compared_tags": {
+                    "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/el8_aarch64_gcc11..IB/CMSSW_13_1_X_2023-04-12-2300/el8_aarch64_gcc11", 
                     "el8_ppc64le_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/el8_ppc64le_gcc11..IB/CMSSW_13_1_X_2023-04-12-2300/el8_ppc64le_gcc11", 
-                    "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/el8_aarch64_gcc11..IB/CMSSW_13_1_X_2023-04-12-2300/el8_aarch64_gcc11"
+                    "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-10-2300/slc7_amd64_gcc11..IB/CMSSW_13_1_X_2023-04-12-2300/slc7_amd64_gcc11"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
+                    "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-12-2300/el8_aarch64_gcc11", 
                     "el8_ppc64le_gcc11": "IB/CMSSW_13_1_X_2023-04-12-2300/el8_ppc64le_gcc11", 
-                    "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-04-12-2300/el8_aarch64_gcc11"
+                    "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-04-12-2300/slc7_amd64_gcc11"
                 }, 
                 "piechart": "inprogress", 
                 "flawfinder": "inprogress", 
@@ -45637,6 +45663,12 @@
                         }
                     }, 
                     {
+                        "arch": "slc7_amd64_gcc11", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
                         "arch": "el8_ppc64le_gcc11", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/el8_ppc64le_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/new/logAnalysis.pkl']", 
@@ -45651,9 +45683,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2239, 
-                            "known_failed": 0, 
-                            "num_failed": 55
+                            "num_passed": 2362, 
+                            "known_failed": 54, 
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -45675,6 +45707,14 @@
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc11", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 35
+                        }
+                    }, 
                     {
                         "arch": "el8_aarch64_gcc11", 
                         "passed": "passed", 
@@ -45699,6 +45739,10 @@
                 "material_budget": "not-found", 
                 "dupDict": [
                     {
+                        "arch": "slc7_amd64_gcc11", 
+                        "passed": "passed"
+                    }, 
+                    {
                         "arch": "el8_ppc64le_gcc11", 
                         "passed": "passed"
                     }, 
@@ -45716,6 +45760,12 @@
                         "arch": "el8_aarch64_gcc11", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/addOnTests.log", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "el8_ppc64le_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/addOnTests.log", 
                         "details": {}
                     }
                 ], 
