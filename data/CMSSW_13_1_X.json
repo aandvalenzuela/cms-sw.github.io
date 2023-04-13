@@ -191,9 +191,11 @@
             "utests": [
                 {
                     "arch": "el8_aarch64_gcc11", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2023-04-12-2300-0000", 
@@ -204,8 +206,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1, 
-                        "known_failed": 0, 
+                        "num_passed": 701, 
+                        "known_failed": 6, 
                         "num_failed": 0
                     }
                 }

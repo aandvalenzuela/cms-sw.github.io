@@ -27572,7 +27572,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/wed/12.6-wed-23/CMSSW_12_6_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1151, 
+                            "num_passed": 1710, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -42723,7 +42723,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1.ROOT6-wed-23/CMSSW_13_1_ROOT6_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 7, 
+                            "num_passed": 16, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -45420,9 +45420,11 @@
                 "utests": [
                     {
                         "arch": "el8_aarch64_gcc11", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2023-04-12-2300-0000", 
@@ -45433,8 +45435,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
-                            "known_failed": 0, 
+                            "num_passed": 701, 
+                            "known_failed": 6, 
                             "num_failed": 0
                         }
                     }
