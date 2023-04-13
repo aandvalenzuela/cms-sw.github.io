@@ -122,13 +122,13 @@
                     "author_login": "youyingli"
                 }, 
                 {
-                    "hash": "21a2503389e16a83ddb249906d35d3f2ac0fad64", 
-                    "title": "[DBG] fix compilation error for dbg IBs", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/41302", 
-                    "number": "41302", 
+                    "hash": "465dac78b96e7ef63027025e43d4dea80d7fb835", 
+                    "title": "Adding HCAL FB LUT to caloParams for uploading to DB", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41221", 
+                    "number": "41221", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "smuzaffar"
+                    "author_login": "vshang"
                 }, 
                 {
                     "hash": "a4517dcc981ca4283127e3944ffcfe01ec2b5c4b", 
@@ -203,13 +203,13 @@
                     "author_login": "smuzaffar"
                 }, 
                 {
-                    "hash": "465dac78b96e7ef63027025e43d4dea80d7fb835", 
-                    "title": "Adding HCAL FB LUT to caloParams for uploading to DB", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/41221", 
-                    "number": "41221", 
+                    "hash": "21a2503389e16a83ddb249906d35d3f2ac0fad64", 
+                    "title": "[DBG] fix compilation error for dbg IBs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41302", 
+                    "number": "41302", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "vshang"
+                    "author_login": "smuzaffar"
                 }, 
                 {
                     "hash": "2fc509a17c8078268f26ebef0407e3ddc974e6da", 
@@ -230,6 +230,15 @@
                     "author_login": "bsunanda"
                 }, 
                 {
+                    "hash": "0069f22f177bd48916e82b4a7bd68ab5c67b234f", 
+                    "title": "Catch and rethrow xml exceptions in TotemDAQMappingESSourceXML", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41329", 
+                    "number": "41329", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
                     "hash": "f86695c42c12a1911b02f1504b8dffd28e652f02", 
                     "title": "Utilities/StaticAnalyzers: skip pybind11 types in non-const global statics check", 
                     "url": "https://github.com/cms-sw/cmssw/pull/41306", 
@@ -237,6 +246,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "gartung"
+                }, 
+                {
+                    "hash": "97ce865a3e9f41024eff6d2f213b719526d35f50", 
+                    "title": "Include HcalPFCuts Rcd and update SiPixel Dynamic Inefficiency tags in MC GTs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41327", 
+                    "number": "41327", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "saumyaphor4252"
                 }, 
                 {
                     "hash": "2fe8c4f57a40e708978af53a06f5f66e284f5c88", 
@@ -255,6 +273,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "2b93cd26fd10d214acefd3648ac7accf0f9ee4a6", 
+                    "title": "TagProbeFitter: replace call to deprecated overload of RooPdf::paramOn", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41322", 
+                    "number": "41322", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "iarspider"
                 }
             ], 
             "base_branch": "CMSSW_13_1_X", 

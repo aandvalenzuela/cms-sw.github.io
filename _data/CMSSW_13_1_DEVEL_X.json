@@ -31,24 +31,6 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
-                    "hash": "802b6c999799af321ef6c928e12a9dcdc456409f", 
-                    "title": "Run ES modules concurrently [CMSSW_11_2_DEVEL_X]", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/30145", 
-                    "number": "30145", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "8c32aa7d0a7cb15c3f01e95bc8e15ad74ef8cdef", 
-                    "title": "Move to steady_clock in the framework", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/41324", 
-                    "number": "41324", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
                     "hash": "93daef6ff99ce78bc51fb4683eacf5846d9fb02f", 
                     "title": "Concurrently run beginStreams", 
                     "url": "https://github.com/cms-sw/cmssw/pull/35230", 
@@ -58,31 +40,22 @@
                     "author_login": "Dr15Jones"
                 }, 
                 {
-                    "hash": "5aa9ad6253e3effd9e22ef0537faeaedc5d54c7b", 
-                    "title": "[XrdAdaptor] Delay additional source acquisition when redirect limit error is returned.", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35498", 
-                    "number": "35498", 
+                    "hash": "802b6c999799af321ef6c928e12a9dcdc456409f", 
+                    "title": "Run ES modules concurrently [CMSSW_11_2_DEVEL_X]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/30145", 
+                    "number": "30145", 
                     "is_merge_commit": false, 
                     "from_merge_commit": true, 
-                    "author_login": "osschar"
+                    "author_login": "Dr15Jones"
                 }, 
                 {
-                    "hash": "b2fbf832485d8a011aeefa4fa6f33c049032162a", 
-                    "title": "[XrdAdaptor] Modifications for xrootd-5.3", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/34700", 
-                    "number": "34700", 
+                    "hash": "43e84aac1e58fee67927b1b8c5d464d6d112ebcd", 
+                    "title": "Update DQMServices for protobuf 3.6.1.2 and tensorflow interfaces for TF 1.13.1 (copy of 25889)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26689", 
+                    "number": "26689", 
                     "is_merge_commit": false, 
                     "from_merge_commit": true, 
-                    "author_login": "osschar"
-                }, 
-                {
-                    "hash": "8a546bca778cfd4a8e8c3c8577c32c6d7aec3ac8", 
-                    "title": "Improved options handling for TensorFlow sessions", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/41276", 
-                    "number": "41276", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "valsdav"
+                    "author_login": "mrodozov"
                 }, 
                 {
                     "hash": "b4653fa9b6abde3a7ec7ee6bd1d3a62539311ce4", 
@@ -98,51 +71,6 @@
                     "title": "Update clang headers location and changed interfaces", 
                     "url": "https://github.com/cms-sw/cmssw/pull/27663", 
                     "number": "27663", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "mrodozov"
-                }, 
-                {
-                    "hash": "c1886c29be0d9d799e335dc4d6a5aa02c3a919a6", 
-                    "title": "restrict FastTimerService to default arena", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/33126", 
-                    "number": "33126", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "dan131riley"
-                }, 
-                {
-                    "hash": "2db3b92c6fad5baae34a96b7889d290a09408706", 
-                    "title": "Use python3 in cmsRun in DEVEL build ", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/26401", 
-                    "number": "26401", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "davidlange6"
-                }, 
-                {
-                    "hash": "58b7349666c1dcd94cfc8c2d68ced3a74d05ee45", 
-                    "title": "Remove CMS custom hacks for Oracle OCCI old C++ ABI compatibility", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/25691", 
-                    "number": "25691", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "mrodozov"
-                }, 
-                {
-                    "hash": "dab137cb528d7ee190a7d77c3f094e2d123b7ef6", 
-                    "title": "Revert TF changes on DEVEL", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/27710", 
-                    "number": "27710", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "mrodozov"
-                }, 
-                {
-                    "hash": "43e84aac1e58fee67927b1b8c5d464d6d112ebcd", 
-                    "title": "Update DQMServices for protobuf 3.6.1.2 and tensorflow interfaces for TF 1.13.1 (copy of 25889)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/26689", 
-                    "number": "26689", 
                     "is_merge_commit": false, 
                     "from_merge_commit": true, 
                     "author_login": "mrodozov"
@@ -193,13 +121,58 @@
                     "author_login": "iarspider"
                 }, 
                 {
-                    "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
-                    "title": "Change devel build to use pybind11 for cmsRun", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/25975", 
-                    "number": "25975", 
+                    "hash": "5aa9ad6253e3effd9e22ef0537faeaedc5d54c7b", 
+                    "title": "[XrdAdaptor] Delay additional source acquisition when redirect limit error is returned.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35498", 
+                    "number": "35498", 
                     "is_merge_commit": false, 
                     "from_merge_commit": true, 
-                    "author_login": "cms-sw"
+                    "author_login": "osschar"
+                }, 
+                {
+                    "hash": "8a546bca778cfd4a8e8c3c8577c32c6d7aec3ac8", 
+                    "title": "Improved options handling for TensorFlow sessions", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41276", 
+                    "number": "41276", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "valsdav"
+                }, 
+                {
+                    "hash": "2db3b92c6fad5baae34a96b7889d290a09408706", 
+                    "title": "Use python3 in cmsRun in DEVEL build ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26401", 
+                    "number": "26401", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "dab137cb528d7ee190a7d77c3f094e2d123b7ef6", 
+                    "title": "Revert TF changes on DEVEL", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/27710", 
+                    "number": "27710", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "mrodozov"
+                }, 
+                {
+                    "hash": "b2fbf832485d8a011aeefa4fa6f33c049032162a", 
+                    "title": "[XrdAdaptor] Modifications for xrootd-5.3", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/34700", 
+                    "number": "34700", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "osschar"
+                }, 
+                {
+                    "hash": "58b7349666c1dcd94cfc8c2d68ced3a74d05ee45", 
+                    "title": "Remove CMS custom hacks for Oracle OCCI old C++ ABI compatibility", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25691", 
+                    "number": "25691", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "mrodozov"
                 }, 
                 {
                     "hash": "360ca4bf1e5f9ae81b2d6eee1764855f9e517004", 
@@ -209,6 +182,60 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": true, 
                     "author_login": "osschar"
+                }, 
+                {
+                    "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
+                    "title": "Change devel build to use pybind11 for cmsRun", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25975", 
+                    "number": "25975", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "cms-sw"
+                }, 
+                {
+                    "hash": "c1886c29be0d9d799e335dc4d6a5aa02c3a919a6", 
+                    "title": "restrict FastTimerService to default arena", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33126", 
+                    "number": "33126", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "dan131riley"
+                }, 
+                {
+                    "hash": "0069f22f177bd48916e82b4a7bd68ab5c67b234f", 
+                    "title": "Catch and rethrow xml exceptions in TotemDAQMappingESSourceXML", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41329", 
+                    "number": "41329", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "97ce865a3e9f41024eff6d2f213b719526d35f50", 
+                    "title": "Include HcalPFCuts Rcd and update SiPixel Dynamic Inefficiency tags in MC GTs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41327", 
+                    "number": "41327", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "saumyaphor4252"
+                }, 
+                {
+                    "hash": "8c32aa7d0a7cb15c3f01e95bc8e15ad74ef8cdef", 
+                    "title": "Move to steady_clock in the framework", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41324", 
+                    "number": "41324", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "2b93cd26fd10d214acefd3648ac7accf0f9ee4a6", 
+                    "title": "TagProbeFitter: replace call to deprecated overload of RooPdf::paramOn", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/41322", 
+                    "number": "41322", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "iarspider"
                 }
             ], 
             "base_branch": "CMSSW_13_1_DEVEL_X", 
@@ -277,7 +304,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1.DEVEL-wed-23/CMSSW_13_1_DEVEL_X_2023-04-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1028, 
+                        "num_passed": 2347, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
