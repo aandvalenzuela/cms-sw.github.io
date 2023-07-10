@@ -97,14 +97,25 @@
             "ib_date": "2023-07-10-1100-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "el8_aarch64_gcc10", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_aarch64_gcc10/www/mon/12.5-mon-11/CMSSW_12_5_X_2023-07-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3501, 
+                        "num_passed": 3545, 
                         "known_failed": 56, 
                         "num_failed": 2
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "el8_ppc64le_gcc10", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/el8_ppc64le_gcc10/www/mon/12.5-mon-11/CMSSW_12_5_X_2023-07-10-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 9, 
+                        "known_failed": 0, 
+                        "num_failed": 1
                     }
                 }
             ], 
