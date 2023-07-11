@@ -1,6 +1,19 @@
 [
     {
         "exitcode": 0,
+        "id": "123.2",
+        "known_error": 0,
+        "name": "QCD_Pt_3000_3500",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "144.6",
         "known_error": 0,
         "name": "MinimumBias2010A",
@@ -19,6 +32,52 @@
     },
     {
         "exitcode": 0,
+        "id": "515.0",
+        "known_error": 0,
+        "name": "DYTollJets_LO_Mad_13TeV_py8_taupinu",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "519.0",
+        "known_error": 0,
+        "name": "WTolNuJets_LO_Mad_13TeV_py8_taurhonu",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 38
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "538.0",
         "known_error": 0,
         "name": "DYToLL01234Jets_5FS_TuneCH3_13TeV_madgraphMLM_herwig7",
@@ -27,6 +86,29 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 15
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1325.517",
+        "known_error": 0,
+        "name": "TTbar13reMINIAODin2017UL",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 144
             },
             {
                 "errors": 0,
