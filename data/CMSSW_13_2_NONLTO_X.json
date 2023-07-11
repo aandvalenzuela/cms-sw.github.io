@@ -16,20 +16,11 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "5959505fc8b354325e3cf4fa593ce2da72c86c6b", 
-                        "title": "Update tag for L1Trigger-L1TMuon to V01-08-00", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8587", 
-                        "number": "8587", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
                     }
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "el8_amd64_gcc11": "IB/CMSSW_13_2_NONLTO_X_2023-07-09-0000/el8_amd64_gcc11..IB/CMSSW_13_2_X/nonlto"
+                "el8_amd64_gcc11": "IB/CMSSW_13_2_NONLTO_X_2023-07-11-1100/el8_amd64_gcc11..IB/CMSSW_13_2_X/nonlto"
             }, 
             "cmsdistTags": {}, 
             "next_ib": true, 
@@ -37,10 +28,10 @@
             "fwlite": [], 
             "profiling": "not-found", 
             "crab_tests": "not-found", 
-            "compared_tags": "CMSSW_13_2_NONLTO_X_2023-07-10-2300-->CMSSW_13_2_X", 
+            "compared_tags": "CMSSW_13_2_NONLTO_X_2023-07-11-1100-->CMSSW_13_2_X", 
             "dqm_tests": "not-found", 
             "utests": [], 
-            "ib_date": "2023-07-10-2300-0001", 
+            "ib_date": "2023-07-11-1100-0001", 
             "relvals": [], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_13_2_NONLTO_X", 
@@ -57,7 +48,73 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "andrea21z"
-                }, 
+                }
+            ], 
+            "base_branch": "CMSSW_13_2_X", 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "el8_amd64_gcc11"
+            ], 
+            "cmsdist_merged_prs": {
+                "el8_amd64_gcc11": [
+                    {
+                        "hash": "5959505fc8b354325e3cf4fa593ce2da72c86c6b", 
+                        "title": "Update tag for L1Trigger-L1TMuon to V01-08-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8587", 
+                        "number": "8587", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": {
+                "el8_amd64_gcc11": "IB/CMSSW_13_2_NONLTO_X_2023-07-09-0000/el8_amd64_gcc11..IB/CMSSW_13_2_NONLTO_X_2023-07-11-1100/el8_amd64_gcc11"
+            }, 
+            "cmsdistTags": {
+                "el8_amd64_gcc11": "IB/CMSSW_13_2_NONLTO_X_2023-07-11-1100/el8_amd64_gcc11"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "fwlite": [], 
+            "profiling": "not-found", 
+            "crab_tests": "not-found", 
+            "compared_tags": "CMSSW_13_2_NONLTO_X_2023-07-10-2300-->CMSSW_13_2_NONLTO_X_2023-07-11-1100", 
+            "dqm_tests": "not-found", 
+            "utests": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.2.NONLTO-tue-11/CMSSW_13_2_NONLTO_X_2023-07-11-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2023-07-11-1100-0000", 
+            "relvals": [], 
+            "igprof": "not-found", 
+            "release_queue": "CMSSW_13_2_NONLTO_X", 
+            "release_name": "CMSSW_13_2_NONLTO_X_2023-07-11-1100", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
                 {
                     "hash": "591a0f64482980ca45ddf5897b604208873cbed8", 
                     "title": "SIM: fixed scripts and mctruth", 
@@ -97,16 +154,30 @@
             ], 
             "base_branch": "CMSSW_13_2_X", 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/tue/13.2.NONLTO-tue-11/CMSSW_13_2_NONLTO_X_2023-07-11-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 29
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "check-headers": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed"
+                }
+            ], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "not-found"
