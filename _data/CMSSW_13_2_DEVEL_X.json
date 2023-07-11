@@ -86,6 +86,15 @@
                     "author_login": "fabiocos"
                 }, 
                 {
+                    "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
+                    "title": "Change devel build to use pybind11 for cmsRun", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/25975", 
+                    "number": "25975", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": true, 
+                    "author_login": "cms-sw"
+                }, 
+                {
                     "hash": "eca8467f0071f232b5bd125554c32eada8538ee1", 
                     "title": "Fix compilation warnings in MESet*", 
                     "url": "https://github.com/cms-sw/cmssw/pull/42188", 
@@ -167,15 +176,6 @@
                     "author_login": "osschar"
                 }, 
                 {
-                    "hash": "360ca4bf1e5f9ae81b2d6eee1764855f9e517004", 
-                    "title": "For async calls always store XrdCl::FileSystem with the response-handler.", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/35455", 
-                    "number": "35455", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": true, 
-                    "author_login": "osschar"
-                }, 
-                {
                     "hash": "2db3b92c6fad5baae34a96b7889d290a09408706", 
                     "title": "Use python3 in cmsRun in DEVEL build ", 
                     "url": "https://github.com/cms-sw/cmssw/pull/26401", 
@@ -212,13 +212,13 @@
                     "author_login": "mrodozov"
                 }, 
                 {
-                    "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
-                    "title": "Change devel build to use pybind11 for cmsRun", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/25975", 
-                    "number": "25975", 
+                    "hash": "360ca4bf1e5f9ae81b2d6eee1764855f9e517004", 
+                    "title": "For async calls always store XrdCl::FileSystem with the response-handler.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/35455", 
+                    "number": "35455", 
                     "is_merge_commit": false, 
                     "from_merge_commit": true, 
-                    "author_login": "cms-sw"
+                    "author_login": "osschar"
                 }, 
                 {
                     "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
@@ -255,6 +255,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "civanch"
+                }, 
+                {
+                    "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
+                    "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42139", 
+                    "number": "42139", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "saumyaphor4252"
                 }
             ], 
             "base_branch": "CMSSW_13_2_DEVEL_X", 
