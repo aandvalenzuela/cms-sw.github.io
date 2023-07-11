@@ -50,6 +50,36 @@
     },
     {
         "exitcode": 16640,
+        "id": "512.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "DYTollJets_LO_Mad_13TeV_py8",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "513.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "WTolNuJets_LO_Mad_13TeV_py8",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
         "id": "514.0",
         "known_error": 1,
         "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
@@ -65,11 +95,41 @@
     },
     {
         "exitcode": 16640,
+        "id": "515.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "DYTollJets_LO_Mad_13TeV_py8_taupinu",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
         "id": "516.0",
         "known_error": 1,
         "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
         "known_failed_step": 1,
         "name": "WTolNuJets_LO_Mad_13TeV_py8_taupinu",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "517.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_taupinu",
         "steps": [
             {
                 "errors": 0,
@@ -265,6 +325,21 @@
         "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
         "known_failed_step": 1,
         "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taurhonu",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "535.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "TTbar_13TeV_Pow_herwig7",
         "steps": [
             {
                 "errors": 0,
@@ -1158,6 +1233,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.74",
+        "known_error": 0,
+        "name": "RunEl2012D",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 119
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
             }
         ]
     },
@@ -4754,6 +4857,34 @@
     },
     {
         "exitcode": 0,
+        "id": "140.062",
+        "known_error": 0,
+        "name": "RunMuon2022D",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 100
+            },
+            {
+                "errors": 23,
+                "status": "PASSED",
+                "warnings": 516
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "140.065505",
         "known_error": 0,
         "name": "Run3-2023_JetMET2022D_RecoPixelOnlyTripletsCPU",
@@ -4889,6 +5020,34 @@
                 "errors": 53,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "140.106",
+        "known_error": 0,
+        "name": "RunJetMET2022D",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 14,
+                "status": "PASSED",
+                "warnings": 88
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 291
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 42
             }
         ]
     },
@@ -9242,6 +9401,34 @@
     },
     {
         "exitcode": 0,
+        "id": "13034.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2024PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 65
+            },
+            {
+                "errors": 1056,
+                "status": "PASSED",
+                "warnings": 234
+            },
+            {
+                "errors": 25,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "13034.99",
         "known_error": 0,
         "name": "TTbar_14TeV+2024PU_PMXS1S2",
@@ -10778,6 +10965,29 @@
     },
     {
         "exitcode": 0,
+        "id": "250407.18",
+        "known_error": 0,
+        "name": "NuGun_UP18",
+        "steps": [
+            {
+                "errors": 18798,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "250408.0",
         "known_error": 0,
         "name": "QCD_FlatPt_15_3000HS_13",
@@ -10819,6 +11029,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250408.18",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13",
+        "steps": [
+            {
+                "errors": 17259,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
             }
         ]
     },
