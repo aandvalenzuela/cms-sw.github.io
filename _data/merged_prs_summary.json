@@ -8737,6 +8737,15 @@
                         "author_login": "cms-tsg-storm"
                     }, 
                     {
+                        "hash": "455fbab86c9731ee10fcc97ec40271183630f476", 
+                        "title": "[13.0.X] Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42231", 
+                        "number": "42231", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
                         "hash": "dd01bbcb909294af06e32b374f0a7c18cf56fcb6", 
                         "title": "IsoPhotonEB skim (13_0_X)", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42181", 
@@ -9320,7 +9329,17 @@
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_0_X", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "455fbab86c9731ee10fcc97ec40271183630f476", 
+                        "title": "[13.0.X] Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42231", 
+                        "number": "42231", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -9459,7 +9478,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/tue/13.0-tue-11/CMSSW_13_0_X_2023-07-11-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 894, 
+                            "num_passed": 990, 
                             "known_failed": 23, 
                             "num_failed": 0
                         }
@@ -12201,6 +12220,15 @@
                         "author_login": "lathomas"
                     }, 
                     {
+                        "hash": "32159cef454692bf3fa413055fa168f59f51c588", 
+                        "title": "[13.1.X] Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42230", 
+                        "number": "42230", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
                         "hash": "8e1696cb1b9bb889788b08f199e114ce282988f6", 
                         "title": "HLT menu development for `13_0_X` (11/N) [`13_1_X`]", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42219", 
@@ -12668,7 +12696,17 @@
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_1_X", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "32159cef454692bf3fa413055fa168f59f51c588", 
+                        "title": "[13.1.X] Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42230", 
+                        "number": "42230", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -17143,6 +17181,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42198", 
@@ -17825,6 +17872,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
                     {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
@@ -18938,6 +18994,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42198", 
@@ -19617,6 +19682,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
                     {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
@@ -20332,6 +20406,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "586ba634e586f2d413e5c2225b6918122bd5fc49", 
                         "title": "Implementation of inactive regions along partial wafer cuts ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42183", 
@@ -20707,6 +20790,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
                     }, 
                     {
                         "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
@@ -21947,6 +22039,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42198", 
@@ -22656,6 +22757,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42198", 
@@ -23364,6 +23474,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
                     {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
@@ -24425,6 +24544,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
                     {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
                         "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
@@ -26171,6 +26299,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42198", 
@@ -27282,6 +27419,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
                     {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
@@ -28397,6 +28543,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42198", 
@@ -29098,6 +29253,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
                         "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
                         "title": "EMTF Primitive Conversion LUT update for 2023", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42198", 
@@ -29208,7 +29372,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.UBSAN-mon-23/CMSSW_13_2_UBSAN_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1576, 
+                            "num_passed": 2333, 
                             "known_failed": 0, 
                             "num_failed": 3
                         }
@@ -29953,6 +30117,15 @@
                 "release_name": "CMSSW_13_2_X", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "53cd6054711c07d7f4520ec58a6b692747e37ca6", 
+                        "title": "Monitor idle threads in the FastTimerService", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/40391", 
+                        "number": "40391", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fwyzard"
+                    }, 
                     {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
                         "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
