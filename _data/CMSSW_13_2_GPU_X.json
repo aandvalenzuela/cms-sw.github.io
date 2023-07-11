@@ -7,7 +7,17 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
-                "el8_amd64_gcc11": []
+                "el8_amd64_gcc11": [
+                    {
+                        "hash": "5959505fc8b354325e3cf4fa593ce2da72c86c6b", 
+                        "title": "Update tag for L1Trigger-L1TMuon to V01-08-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8587", 
+                        "number": "8587", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "el8_amd64_gcc11": "IB/CMSSW_13_2_GPU_X_2023-07-09-2300/el8_amd64_gcc11..IB/CMSSW_13_2_X/master"
@@ -31,13 +41,22 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
-                    "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
-                    "title": "Added pileup scenario for 2023 simulation", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42213", 
-                    "number": "42213", 
+                    "hash": "591a0f64482980ca45ddf5897b604208873cbed8", 
+                    "title": "SIM: fixed scripts and mctruth", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42223", 
+                    "number": "42223", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "CMS-LUMI-POG"
+                    "author_login": "civanch"
+                }, 
+                {
+                    "hash": "31938879cbb9b6a64df6e29e15374d17274cce7e", 
+                    "title": "EMTF Primitive Conversion LUT update for 2023", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42198", 
+                    "number": "42198", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "eyigitba"
                 }, 
                 {
                     "hash": "eca8467f0071f232b5bd125554c32eada8538ee1", 
@@ -47,6 +66,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "iarspider"
+                }, 
+                {
+                    "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                    "title": "Added pileup scenario for 2023 simulation", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                    "number": "42213", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CMS-LUMI-POG"
                 }
             ], 
             "base_branch": "CMSSW_13_2_X", 
