@@ -104,7 +104,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-23/CMSSW_10_6_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1498, 
+                            "num_passed": 2237, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -6758,7 +6758,7 @@
                         "details": {}
                     }
                 ], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "passed"
             }, 
             {
                 "comp_baseline_state": "errors", 
@@ -9381,7 +9381,7 @@
                         "details": {}
                     }
                 ], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "error"
             }, 
             {
                 "comp_baseline_state": "errors", 
@@ -16849,7 +16849,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_2_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -16904,9 +16914,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.ASAN-mon-23/CMSSW_13_2_ASAN_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1754, 
+                            "num_passed": 2690, 
                             "known_failed": 0, 
-                            "num_failed": 1
+                            "num_failed": 2
                         }
                     }
                 ], 
@@ -17456,7 +17466,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_2_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -17513,7 +17533,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.CLANG-mon-23/CMSSW_13_2_CLANG_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3421, 
+                            "num_passed": 3721, 
                             "known_failed": 0, 
                             "num_failed": 2
                         }
@@ -18496,6 +18516,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }, 
+                    {
                         "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
                         "title": "Fixing logic for evaluating trajectory parameters", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42108", 
@@ -19103,13 +19132,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
-                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
-                        "number": "42218", 
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cms-tsg-storm"
+                        "author_login": "CMS-LUMI-POG"
                     }, 
                     {
                         "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
@@ -19119,6 +19148,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ArturAkh"
+                    }, 
+                    {
+                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
+                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
+                        "number": "42218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tsg-storm"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -19798,13 +19836,13 @@
                         "author_login": "syuvivida"
                     }, 
                     {
-                        "hash": "3282922090a909903c7f4ca9503403e753461da4", 
-                        "title": "Fix additional memory issues in EcnaAnalyzer", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/42210", 
-                        "number": "42210", 
+                        "hash": "6c9a9e3e684f1678c98c8cfcc2f078bfe425ce7f", 
+                        "title": "fixed LHCInfo PopCon ignoring endTime parameter", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42207", 
+                        "number": "42207", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "CTPPS"
                     }, 
                     {
                         "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
@@ -19814,6 +19852,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "cms-tsg-storm"
+                    }, 
+                    {
+                        "hash": "3282922090a909903c7f4ca9503403e753461da4", 
+                        "title": "Fix additional memory issues in EcnaAnalyzer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42210", 
+                        "number": "42210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "ff976b3581b6be34435185b342c0e0e682584128", 
@@ -19843,13 +19890,13 @@
                         "author_login": "bsunanda"
                     }, 
                     {
-                        "hash": "6c9a9e3e684f1678c98c8cfcc2f078bfe425ce7f", 
-                        "title": "fixed LHCInfo PopCon ignoring endTime parameter", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/42207", 
-                        "number": "42207", 
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "CTPPS"
+                        "author_login": "CMS-LUMI-POG"
                     }, 
                     {
                         "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
@@ -20156,6 +20203,15 @@
                         "author_login": "iarspider"
                     }, 
                     {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }, 
+                    {
                         "hash": "fcf7e7029a1421d4c8e96cea619e0806b22c01e7", 
                         "title": "Change devel build to use pybind11 for cmsRun", 
                         "url": "https://github.com/cms-sw/cmssw/pull/25975", 
@@ -20225,7 +20281,7 @@
                 "ib_date": "2023-07-10-2300-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "el8_amd64_gcc11", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.DEVEL-mon-23/CMSSW_13_2_DEVEL_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
@@ -21213,13 +21269,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
-                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
-                        "number": "42218", 
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cms-tsg-storm"
+                        "author_login": "CMS-LUMI-POG"
                     }, 
                     {
                         "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
@@ -21229,6 +21285,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ArturAkh"
+                    }, 
+                    {
+                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
+                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
+                        "number": "42218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tsg-storm"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -21849,13 +21914,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
-                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
-                        "number": "42218", 
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cms-tsg-storm"
+                        "author_login": "CMS-LUMI-POG"
                     }, 
                     {
                         "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
@@ -21865,6 +21930,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ArturAkh"
+                    }, 
+                    {
+                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
+                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
+                        "number": "42218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tsg-storm"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -22483,7 +22557,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_2_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -23479,7 +23563,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_2_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -25099,7 +25193,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_2_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -25156,7 +25260,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.ROOT628-mon-23/CMSSW_13_2_ROOT628_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 57, 
+                            "num_passed": 2053, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -26137,7 +26241,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_2_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -26194,7 +26308,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.ROOT6-mon-23/CMSSW_13_2_ROOT6_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1122, 
+                            "num_passed": 3601, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -27179,13 +27293,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
-                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
-                        "number": "42218", 
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cms-tsg-storm"
+                        "author_login": "CMS-LUMI-POG"
                     }, 
                     {
                         "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
@@ -27195,6 +27309,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ArturAkh"
+                    }, 
+                    {
+                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
+                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
+                        "number": "42218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tsg-storm"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -27816,13 +27939,13 @@
                         "author_login": "yuanchao"
                     }, 
                     {
-                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
-                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
-                        "number": "42218", 
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cms-tsg-storm"
+                        "author_login": "CMS-LUMI-POG"
                     }, 
                     {
                         "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
@@ -27832,6 +27955,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ArturAkh"
+                    }, 
+                    {
+                        "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
+                        "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42218", 
+                        "number": "42218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-tsg-storm"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -28420,7 +28552,17 @@
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_2_X", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                        "title": "Added pileup scenario for 2023 simulation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                        "number": "42213", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "CMS-LUMI-POG"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
