@@ -1,6 +1,29 @@
 [
     {
         "exitcode": 16640,
+        "id": "148.0",
+        "known_error": 0,
+        "name": "HydjetQ_MinBias_XeXe_5442GeV_2017",
+        "steps": [
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
         "id": "10804.31",
         "known_error": 0,
         "name": "SingleGammaPt10+2018_photonDRN",
@@ -24,6 +47,24 @@
     },
     {
         "exitcode": 0,
+        "id": "144.6",
+        "known_error": 0,
+        "name": "MinimumBias2010A",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 493
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "13240.303",
         "known_error": 0,
         "name": "MinBias_14TeV+2021FS_Run3FSMBMixing",
@@ -32,6 +73,19 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25061.97",
+        "known_error": 0,
+        "name": "PREMIXUP26D98_PU25+2026D98PU_PMXS1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
             }
         ]
     }
