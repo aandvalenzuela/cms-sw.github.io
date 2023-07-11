@@ -104,7 +104,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-23/CMSSW_10_6_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2237, 
+                            "num_passed": 2622, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -8643,7 +8643,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "dd01bbcb909294af06e32b374f0a7c18cf56fcb6", 
+                        "title": "IsoPhotonEB skim (13_0_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42181", 
+                        "number": "42181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lathomas"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_0_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -9218,7 +9228,17 @@
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_0_X", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "dd01bbcb909294af06e32b374f0a7c18cf56fcb6", 
+                        "title": "IsoPhotonEB skim (13_0_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42181", 
+                        "number": "42181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lathomas"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -12012,7 +12032,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "cf85b32129919eacdda6753eebc3e8ad57b86eb5", 
+                        "title": "IsoPhotonEB skim (13_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42182", 
+                        "number": "42182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lathomas"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_1_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -12471,7 +12501,17 @@
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_1_X", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "cf85b32129919eacdda6753eebc3e8ad57b86eb5", 
+                        "title": "IsoPhotonEB skim (13_1_X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42182", 
+                        "number": "42182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "lathomas"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -16914,9 +16954,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.ASAN-mon-23/CMSSW_13_2_ASAN_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2690, 
+                            "num_passed": 2918, 
                             "known_failed": 0, 
-                            "num_failed": 2
+                            "num_failed": 5
                         }
                     }
                 ], 
@@ -17528,12 +17568,12 @@
                 "ib_date": "2023-07-10-2300-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "el8_amd64_gcc11", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.CLANG-mon-23/CMSSW_13_2_CLANG_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3721, 
+                            "num_passed": 4125, 
                             "known_failed": 0, 
                             "num_failed": 2
                         }
@@ -25260,7 +25300,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.ROOT628-mon-23/CMSSW_13_2_ROOT628_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2053, 
+                            "num_passed": 3724, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -26308,7 +26348,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/mon/13.2.ROOT6-mon-23/CMSSW_13_2_ROOT6_X_2023-07-10-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3601, 
+                            "num_passed": 4007, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
