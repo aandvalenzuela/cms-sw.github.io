@@ -73,7 +73,14 @@
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-23/CMSSW_10_6_X_2023-07-10-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "profiling": "not-found", 
             "crab_tests": "not-found", 
             "compared_tags": "CMSSW_10_6_X_2023-07-09-0000-->CMSSW_10_6_X_2023-07-10-2300", 
