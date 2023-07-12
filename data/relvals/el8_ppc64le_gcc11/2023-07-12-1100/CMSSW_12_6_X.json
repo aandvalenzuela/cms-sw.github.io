@@ -1207,6 +1207,24 @@
     },
     {
         "exitcode": 21504,
+        "id": "13992502.0",
+        "known_error": 0,
+        "name": "TTbar_13_HS+TTbar_13_HSINPUT+DIGIUP15_PU25HS+RECOUP15_PU25HS+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 6
+            }
+        ]
+    },
+    {
+        "exitcode": 21504,
         "id": "203.0",
         "known_error": 0,
         "name": "H130GGgluonfusion+H130GGgluonfusionINPUT+DIGIPU1+RECOPU1+HARVEST",
@@ -1335,6 +1353,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 40
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 21504,
+        "id": "25215.0",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13+Hadronizer_TuneCUETP8M1_13TeV_powhegEmissionVeto_2p_HToGG_M125_13+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
             },
             {
                 "errors": 0,
@@ -2771,6 +2817,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.54",
+        "known_error": 0,
+        "name": "RunEl2012B+RunEl2012B+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 364
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.57",
         "known_error": 0,
         "name": "ZElSkim2012B+ZElSkim2012B+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
@@ -3978,6 +4052,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 229
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "30.0",
+        "known_error": 0,
+        "name": "ZMM+ZMMINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 88
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 204
             },
             {
                 "errors": 2,
