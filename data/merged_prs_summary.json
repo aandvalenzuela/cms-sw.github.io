@@ -6779,9 +6779,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1015, 
-                            "known_failed": 0, 
-                            "num_failed": 152
+                            "num_passed": 1901, 
+                            "known_failed": 54, 
+                            "num_failed": 241
                         }
                     }, 
                     {
@@ -6790,9 +6790,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2644, 
-                            "known_failed": 10, 
-                            "num_failed": 32
+                            "num_passed": 3185, 
+                            "known_failed": 54, 
+                            "num_failed": 79
                         }
                     }, 
                     {
@@ -13562,7 +13562,10 @@
                 ], 
                 "material_budget_v2": "not-found", 
                 "check-headers": "passed", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "el8_amd64_gcc11"
+                }, 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
                 "dupDict": [
@@ -13592,7 +13595,7 @@
                     }
                 ], 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "el8_amd64_gcc11:", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
