@@ -6755,7 +6755,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 27, 
+                            "num_passed": 274, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -9540,7 +9540,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 11, 
+                            "num_passed": 340, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -9548,12 +9548,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_amd64_gcc11", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 6, 
+                            "num_passed": 194, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -13025,12 +13025,12 @@
                     {
                         "done": false, 
                         "arch": "el8_amd64_gcc11", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 9, 
+                            "num_passed": 48, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }, 
                     {
@@ -13039,7 +13039,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 8, 
+                            "num_passed": 10, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -17539,6 +17539,15 @@
                         "author_login": "iarspider"
                     }, 
                     {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
+                    }, 
+                    {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
                         "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
                         "url": "https://github.com/cms-sw/cmssw/pull/41903", 
@@ -18219,6 +18228,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "srimanob"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -19429,6 +19447,15 @@
                         "author_login": "iarspider"
                     }, 
                     {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
+                    }, 
+                    {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
                         "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
                         "url": "https://github.com/cms-sw/cmssw/pull/41903", 
@@ -20134,6 +20161,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "iarspider"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }, 
                     {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
@@ -20868,6 +20904,15 @@
                         "author_login": "iarspider"
                     }, 
                     {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
+                    }, 
+                    {
                         "hash": "586ba634e586f2d413e5c2225b6918122bd5fc49", 
                         "title": "Implementation of inactive regions along partial wafer cuts ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42183", 
@@ -21233,6 +21278,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "osschar"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }, 
                     {
                         "hash": "b2fbf832485d8a011aeefa4fa6f33c049032162a", 
@@ -22587,6 +22641,15 @@
                         "author_login": "iarspider"
                     }, 
                     {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
+                    }, 
+                    {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
                         "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
                         "url": "https://github.com/cms-sw/cmssw/pull/41903", 
@@ -23323,6 +23386,15 @@
                         "author_login": "iarspider"
                     }, 
                     {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
+                    }, 
+                    {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
                         "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
                         "url": "https://github.com/cms-sw/cmssw/pull/41903", 
@@ -24029,6 +24101,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "srimanob"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -25158,6 +25239,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "smuzaffar"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -25216,7 +25306,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.2.NONLTO-wed-11/CMSSW_13_2_NONLTO_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 6, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -27062,6 +27152,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "srimanob"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -28242,6 +28341,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "srimanob"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }
                 ], 
                 "base_branch": "CMSSW_13_2_X", 
@@ -29454,6 +29562,15 @@
                         "author_login": "iarspider"
                     }, 
                     {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
+                    }, 
+                    {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
                         "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
                         "url": "https://github.com/cms-sw/cmssw/pull/41903", 
@@ -30180,6 +30297,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "iarspider"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }, 
                     {
                         "hash": "4443ff639ce020de5285ced544bed18969042112", 
@@ -30950,6 +31076,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "smuzaffar"
+                    }, 
+                    {
+                        "hash": "1f6e9b721bd526374bcce775022bf07103061a89", 
+                        "title": "fix off-by-one error in TauNNIdHW::compute", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42233", 
+                        "number": "42233", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dan131riley"
                     }
                 ], 
                 "fwlite": [], 
@@ -30998,7 +31133,10 @@
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "found", 
-                "reco_event_loop": "inprogress", 
+                "reco_event_loop": {
+                    "status": "passed", 
+                    "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
+                }, 
                 "profiling": "found", 
                 "crab_tests": "passed", 
                 "base_branch": "CMSSW_13_2_X", 
@@ -31030,7 +31168,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.2-wed-11/CMSSW_13_2_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3, 
+                            "num_passed": 5, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -31041,7 +31179,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.2-wed-11/CMSSW_13_2_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 2, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
