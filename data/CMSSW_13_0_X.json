@@ -81,14 +81,17 @@
                 "slc7_amd64_gcc11": "IB/CMSSW_13_0_X_2023-07-09-0000/slc7_amd64_gcc11", 
                 "el8_amd64_gcc11": "IB/CMSSW_13_0_X_2023-07-09-0000/el8_amd64_gcc11"
             }, 
-            "piechart": "inprogress", 
-            "flawfinder": "inprogress", 
+            "piechart": {
+                "status": "passed", 
+                "data": "el8_amd64_gcc11/11834.21/step3_cpu.resources"
+            }, 
+            "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "reco_event_loop": "inprogress", 
-            "profiling": "inprogress", 
-            "crab_tests": "inprogress", 
+            "profiling": "found", 
+            "crab_tests": "passed", 
             "base_branch": "CMSSW_13_0_X", 
             "compared_tags": "CMSSW_13_0_X_2023-07-11-2300-->CMSSW_13_0_X_2023-07-12-1100", 
             "dqm_tests": "not-found", 
@@ -107,7 +110,19 @@
                 }
             ], 
             "ib_date": "2023-07-12-1100-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
             "release_queue": "CMSSW_13_0_X", 
             "comp_baseline": "not-found", 
             "release_name": "CMSSW_13_0_X_2023-07-12-1100", 
@@ -137,7 +152,7 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
-            "check-headers": "inprogress", 
+            "check-headers": "passed", 
             "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
@@ -151,7 +166,7 @@
                     "passed": "passed"
                 }
             ], 
-            "lizard": "inprogress", 
+            "lizard": "found", 
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
