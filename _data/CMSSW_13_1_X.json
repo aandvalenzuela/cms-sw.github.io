@@ -9,12 +9,72 @@
             "tests_archs": [], 
             "gpu_utests": [], 
             "cmsdist_merged_prs": {
-                "el8_amd64_gcc11": [], 
-                "el9_amd64_gcc11": [], 
-                "el8_ppc64le_gcc11": [], 
-                "el9_aarch64_gcc11": [], 
-                "slc7_amd64_gcc11": [], 
-                "el8_aarch64_gcc11": []
+                "el8_amd64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "el9_amd64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "el8_ppc64le_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "el9_aarch64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "slc7_amd64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "el8_aarch64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-0000/el8_amd64_gcc11..IB/CMSSW_13_1_X/master", 
@@ -136,7 +196,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3480, 
+                        "num_passed": 3730, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -147,7 +207,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3545, 
+                        "num_passed": 3991, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
