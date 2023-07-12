@@ -6777,8 +6777,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1555, 
-                            "known_failed": 0, 
+                            "num_passed": 1915, 
+                            "known_failed": 4, 
                             "num_failed": 1
                         }
                     }, 
@@ -6852,6 +6852,12 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
+                    {
+                        "arch": "el8_aarch64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/el8_aarch64_gcc11/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/addOnTests.log", 
+                        "details": {}
+                    }, 
                     {
                         "arch": "el8_ppc64le_gcc11", 
                         "passed": true, 
