@@ -6740,9 +6740,11 @@
                 "utests": [
                     {
                         "arch": "el8_amd64_gcc10", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/el8_amd64_gcc10/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2023-07-12-1100-0000", 
@@ -6753,7 +6755,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc10/www/wed/12.6-wed-11/CMSSW_12_6_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2, 
+                            "num_passed": 13, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -9503,7 +9505,10 @@
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "found", 
-                "reco_event_loop": "inprogress", 
+                "reco_event_loop": {
+                    "status": "passed", 
+                    "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
+                }, 
                 "profiling": "found", 
                 "crab_tests": "passed", 
                 "base_branch": "CMSSW_13_0_X", 
@@ -9512,15 +9517,19 @@
                 "utests": [
                     {
                         "arch": "el8_amd64_gcc11", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }, 
                     {
                         "arch": "slc7_amd64_gcc11", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2023-07-12-1100-0000", 
@@ -9534,6 +9543,17 @@
                             "num_passed": 2, 
                             "known_failed": 0, 
                             "num_failed": 1
+                        }
+                    }, 
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.0-wed-11/CMSSW_13_0_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 4, 
+                            "known_failed": 0, 
+                            "num_failed": 0
                         }
                     }
                 ], 
@@ -12973,28 +12993,47 @@
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "found", 
-                "reco_event_loop": "inprogress", 
+                "reco_event_loop": {
+                    "status": "passed", 
+                    "data": "el8_amd64_gcc11/profiling/11834.21/sorted_RES_CPU_step3.txt"
+                }, 
                 "profiling": "found", 
-                "crab_tests": "inprogress", 
+                "crab_tests": "passed", 
                 "base_branch": "CMSSW_13_1_X", 
                 "compared_tags": "CMSSW_13_1_X_2023-07-11-2300-->CMSSW_13_1_X_2023-07-12-1100", 
                 "dqm_tests": "not-found", 
                 "utests": [
                     {
                         "arch": "el8_amd64_gcc11", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }, 
                     {
                         "arch": "slc7_amd64_gcc11", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2023-07-12-1100-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-11/CMSSW_13_1_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_13_1_X", 
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_1_X_2023-07-12-1100", 
@@ -17516,6 +17555,15 @@
                         "author_login": "civanch"
                     }, 
                     {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
                         "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
                         "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42139", 
@@ -18143,6 +18191,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
                     {
                         "hash": "5054bcdd93052332909fba91aa4fade64aa90223", 
                         "title": "Add ECal-component modifiers and test workflows", 
@@ -19388,6 +19445,15 @@
                         "author_login": "civanch"
                     }, 
                     {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
                         "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
                         "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42139", 
@@ -20093,6 +20159,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "civanch"
+                    }, 
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
                     }, 
                     {
                         "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
@@ -20818,6 +20893,15 @@
                         "author_login": "srimanob"
                     }, 
                     {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
                         "hash": "7bdc86860b9c03fcaeb7ebc93f0d594ed9850231", 
                         "title": "Add BX boundary checks for BXVector push_back", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42214", 
@@ -21228,6 +21312,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": true, 
                         "author_login": "iarspider"
+                    }, 
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
                     }, 
                     {
                         "hash": "634a5464ebf48c7b493af7ade1dd0198a8a2d7b8", 
@@ -22519,6 +22612,15 @@
                         "author_login": "civanch"
                     }, 
                     {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
                         "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
                         "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42139", 
@@ -23246,6 +23348,15 @@
                         "author_login": "civanch"
                     }, 
                     {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
                         "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
                         "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42139", 
@@ -23890,6 +24001,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
                     {
                         "hash": "5054bcdd93052332909fba91aa4fade64aa90223", 
                         "title": "Add ECal-component modifiers and test workflows", 
@@ -25018,7 +25138,17 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }
+                ], 
                 "base_branch": "CMSSW_13_2_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -26903,6 +27033,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
                         "hash": "5054bcdd93052332909fba91aa4fade64aa90223", 
                         "title": "Add ECal-component modifiers and test workflows", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42097", 
@@ -28073,6 +28212,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
                     {
                         "hash": "5054bcdd93052332909fba91aa4fade64aa90223", 
                         "title": "Add ECal-component modifiers and test workflows", 
@@ -29329,6 +29477,15 @@
                         "author_login": "civanch"
                     }, 
                     {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
                         "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
                         "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
                         "url": "https://github.com/cms-sw/cmssw/pull/42139", 
@@ -30037,6 +30194,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "civanch"
+                    }, 
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
                     }, 
                     {
                         "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
@@ -30762,7 +30928,17 @@
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_2_X", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "07f077b1ef0ac4f09bf81fb7c4f2b6e80ae41b0e", 
+                        "title": "[ASAN] Fix runtime error by moving std::regex code in anonymous namespace", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/42077", 
+                        "number": "42077", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "smuzaffar"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -30802,13 +30978,13 @@
                     "el8_amd64_gcc11": "IB/CMSSW_13_2_X_2023-07-11-2300/el8_amd64_gcc11"
                 }, 
                 "piechart": "inprogress", 
-                "flawfinder": "inprogress", 
+                "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
-                "igprof": "inprogress", 
+                "igprof": "found", 
                 "reco_event_loop": "inprogress", 
                 "profiling": "inprogress", 
-                "crab_tests": "inprogress", 
+                "crab_tests": "passed", 
                 "base_branch": "CMSSW_13_2_X", 
                 "compared_tags": "CMSSW_13_2_X_2023-07-11-2300-->CMSSW_13_2_X_2023-07-12-1100", 
                 "dqm_tests": "not-found", 
@@ -30827,7 +31003,30 @@
                     }
                 ], 
                 "ib_date": "2023-07-12-1100-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "el8_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.2-wed-11/CMSSW_13_2_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 1, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }, 
+                    {
+                        "done": false, 
+                        "arch": "slc7_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.2-wed-11/CMSSW_13_2_X_2023-07-12-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 1, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_13_2_X", 
                 "comp_baseline": "not-found", 
                 "release_name": "CMSSW_13_2_X_2023-07-12-1100", 
@@ -30843,7 +31042,14 @@
                         "author_login": "srimanob"
                     }
                 ], 
-                "fwlite": [], 
+                "fwlite": [
+                    {
+                        "arch": "el8_amd64_gcc11", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.2-wed-11/CMSSW_13_2_X_2023-07-12-1100/new_FWLITE/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
                 "invalid_includes": [], 
                 "builds": [
                     {
@@ -30878,7 +31084,7 @@
                         "passed": "passed"
                     }
                 ], 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
@@ -30887,6 +31093,12 @@
                         "arch": "el8_amd64_gcc11", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.2-wed-11/CMSSW_13_2_X_2023-07-12-1100/addOnTests.log", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc11", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.2-wed-11/CMSSW_13_2_X_2023-07-12-1100/addOnTests.log", 
                         "details": {}
                     }
                 ], 
@@ -31151,7 +31363,7 @@
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "el8_ppc64le_gcc11", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/el8_ppc64le_gcc11/www/tue/13.2-tue-23/CMSSW_13_2_X_2023-07-11-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
