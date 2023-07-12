@@ -59,6 +59,15 @@
                     "author_login": "fwyzard"
                 }, 
                 {
+                    "hash": "eca8467f0071f232b5bd125554c32eada8538ee1", 
+                    "title": "Fix compilation warnings in MESet*", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42188", 
+                    "number": "42188", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "iarspider"
+                }, 
+                {
                     "hash": "586ba634e586f2d413e5c2225b6918122bd5fc49", 
                     "title": "Implementation of inactive regions along partial wafer cuts ", 
                     "url": "https://github.com/cms-sw/cmssw/pull/42183", 
@@ -66,6 +75,78 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Pruthvi-ch"
+                }, 
+                {
+                    "hash": "5cedebee49a0bff7a41159836951ba0b19fbecbf", 
+                    "title": "Online DQM: add an input argument outputBaseDir in pbsource_cfi.py (to fit with the new hltd version)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42128", 
+                    "number": "42128", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "syuvivida"
+                }, 
+                {
+                    "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
+                    "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42218", 
+                    "number": "42218", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "5054bcdd93052332909fba91aa4fade64aa90223", 
+                    "title": "Add ECal-component modifiers and test workflows", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42097", 
+                    "number": "42097", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "srimanob"
+                }, 
+                {
+                    "hash": "7bdc86860b9c03fcaeb7ebc93f0d594ed9850231", 
+                    "title": "Add BX boundary checks for BXVector push_back", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42214", 
+                    "number": "42214", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "aloeliger"
+                }, 
+                {
+                    "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
+                    "title": "Added pileup scenario for 2023 simulation", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42213", 
+                    "number": "42213", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CMS-LUMI-POG"
+                }, 
+                {
+                    "hash": "3282922090a909903c7f4ca9503403e753461da4", 
+                    "title": "Fix additional memory issues in EcnaAnalyzer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42210", 
+                    "number": "42210", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "1a0bf262e28d02dc60bfae3bc54bc7b4e25b70a3", 
+                    "title": "Phase2-hgx341F Update the scripts in Geometry/HGCalCommonData/test/python to investigate the discrepancey between DDD and DD4hep descriptions", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42211", 
+                    "number": "42211", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
+                    "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42139", 
+                    "number": "42139", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "saumyaphor4252"
                 }, 
                 {
                     "hash": "3097d89b65e35140553ce40f3900a51721febaf9", 
@@ -86,24 +167,6 @@
                     "author_login": "eyigitba"
                 }, 
                 {
-                    "hash": "eca8467f0071f232b5bd125554c32eada8538ee1", 
-                    "title": "Fix compilation warnings in MESet*", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42188", 
-                    "number": "42188", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "iarspider"
-                }, 
-                {
-                    "hash": "7bdc86860b9c03fcaeb7ebc93f0d594ed9850231", 
-                    "title": "Add BX boundary checks for BXVector push_back", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42214", 
-                    "number": "42214", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "aloeliger"
-                }, 
-                {
                     "hash": "4443ff639ce020de5285ced544bed18969042112", 
                     "title": "Update Muon MVA ID model and working points in MiniAOD and NanoAOD", 
                     "url": "https://github.com/cms-sw/cmssw/pull/41903", 
@@ -111,15 +174,6 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "andrea21z"
-                }, 
-                {
-                    "hash": "64879bbb93a265c027d4b026d9c7dda43ee1a695", 
-                    "title": "fix assignment of `PVValHelper::phase` in `PrimaryVertexValidation`", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42203", 
-                    "number": "42203", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "mmusich"
                 }, 
                 {
                     "hash": "81dbec064740e0469defa1f7faae18ad16ec282a", 
@@ -140,40 +194,13 @@
                     "author_login": "bsunanda"
                 }, 
                 {
-                    "hash": "5cedebee49a0bff7a41159836951ba0b19fbecbf", 
-                    "title": "Online DQM: add an input argument outputBaseDir in pbsource_cfi.py (to fit with the new hltd version)", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42128", 
-                    "number": "42128", 
+                    "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
+                    "title": "Fixing logic for evaluating trajectory parameters", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42108", 
+                    "number": "42108", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "syuvivida"
-                }, 
-                {
-                    "hash": "6c9a9e3e684f1678c98c8cfcc2f078bfe425ce7f", 
-                    "title": "fixed LHCInfo PopCon ignoring endTime parameter", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42207", 
-                    "number": "42207", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "CTPPS"
-                }, 
-                {
-                    "hash": "deb1b37b234a2aa3a45e7b61936446f0ad62596e", 
-                    "title": "HLT menu development for `13_0_X` (11/N) [`13_2_X`]", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42218", 
-                    "number": "42218", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "cms-tsg-storm"
-                }, 
-                {
-                    "hash": "3282922090a909903c7f4ca9503403e753461da4", 
-                    "title": "Fix additional memory issues in EcnaAnalyzer", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42210", 
-                    "number": "42210", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
+                    "author_login": "ArturAkh"
                 }, 
                 {
                     "hash": "591a0f64482980ca45ddf5897b604208873cbed8", 
@@ -194,40 +221,13 @@
                     "author_login": "lathomas"
                 }, 
                 {
-                    "hash": "e5d2c09d277246d003b3d02115f62be3171ab6c9", 
-                    "title": "Update RPC geometry fix in 2022 and 2023 MC GTs", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42139", 
-                    "number": "42139", 
+                    "hash": "6c9a9e3e684f1678c98c8cfcc2f078bfe425ce7f", 
+                    "title": "fixed LHCInfo PopCon ignoring endTime parameter", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42207", 
+                    "number": "42207", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "saumyaphor4252"
-                }, 
-                {
-                    "hash": "1a0bf262e28d02dc60bfae3bc54bc7b4e25b70a3", 
-                    "title": "Phase2-hgx341F Update the scripts in Geometry/HGCalCommonData/test/python to investigate the discrepancey between DDD and DD4hep descriptions", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42211", 
-                    "number": "42211", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "bsunanda"
-                }, 
-                {
-                    "hash": "96ca9f277de6d00c4f560d55e26664532270b706", 
-                    "title": "Added pileup scenario for 2023 simulation", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42213", 
-                    "number": "42213", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "CMS-LUMI-POG"
-                }, 
-                {
-                    "hash": "c91c5526bc876ce6929088870e41363b09e71b10", 
-                    "title": "Fixing logic for evaluating trajectory parameters", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42108", 
-                    "number": "42108", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "ArturAkh"
+                    "author_login": "CTPPS"
                 }, 
                 {
                     "hash": "3cf701f2242137849e1a942ad470e8718c6c4c74", 
@@ -237,6 +237,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "makortel"
+                }, 
+                {
+                    "hash": "64879bbb93a265c027d4b026d9c7dda43ee1a695", 
+                    "title": "fix assignment of `PVValHelper::phase` in `PrimaryVertexValidation`", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42203", 
+                    "number": "42203", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
                 }
             ], 
             "base_branch": "CMSSW_13_2_X", 
