@@ -1,5 +1,28 @@
 [
     {
+        "exitcode": 16640,
+        "id": "10805.31",
+        "known_error": 0,
+        "name": "SingleGammaPt35+2018_photonDRN+SingleGammaPt35_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 2,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
         "exitcode": 0,
         "id": "144.6",
         "known_error": 0,
@@ -60,6 +83,42 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "2500.501",
+        "known_error": 0,
+        "name": "mc124Xrun3+TTbarMINIAOD12.4+NANO_mc12.4+HRV_NANO_mc",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 41,
+                "status": "PASSED",
+                "warnings": 509
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "21061.97",
+        "known_error": 0,
+        "name": "PREMIXUP26D88_PU25+2026D88PU_PMXS1+PREMIX_PremixHLBeamSpotPU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
             }
         ]
     }
