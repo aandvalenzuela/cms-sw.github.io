@@ -139,10 +139,10 @@
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "reco_event_loop": "inprogress", 
             "profiling": "inprogress", 
-            "crab_tests": "inprogress", 
+            "crab_tests": "passed", 
             "base_branch": "CMSSW_13_0_X", 
             "compared_tags": "CMSSW_13_0_11-->CMSSW_13_0_X_2023-07-12-2300", 
             "dqm_tests": "not-found", 
@@ -173,7 +173,14 @@
             "release_name": "CMSSW_13_0_X_2023-07-12-2300", 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0-wed-23/CMSSW_13_0_X_2023-07-12-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "invalid_includes": [], 
             "builds": [
                 {
@@ -220,11 +227,18 @@
                     "passed": "passed"
                 }
             ], 
-            "lizard": "inprogress", 
+            "lizard": "found", 
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.0-wed-23/CMSSW_13_0_X_2023-07-12-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "inprogress"
         }, 
         {
@@ -2193,7 +2207,7 @@
                     "details": {}
                 }
             ], 
-            "hlt_tests": "passed"
+            "hlt_tests": "error"
         }, 
         {
             "comp_baseline_state": "errors", 
