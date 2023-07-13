@@ -77,9 +77,9 @@ Currently there are 4 active dashboards:
 * [**CMSSW Git Repository Dashboard**](https://monit-grafana.cern.ch/d/srDrmWPWk/cmssdt-cmssw-repository-size?orgId=11): Its source is the `cmssdt-git-repository-size` index and it is dailuy updated to monitor the size of the [cms-sw/cmssw](https://github.com/cms-sw/cmssw) GitHub repository.
 
 ## Dashboard Backups
-In order to back-up the Dashboards one need to move them to the Backup folder. CMS Monitoring have permissions to do this for you since they take care of the actual backup in "General" settings of the Dashboard. The monitoring team takes grafana DB backups and write the json format of the dashboard to HDFS (with restricted access ).
+In order to back-up the Dashboards one need to move them to the Backup folder. CMS Monitoring have permissions to do this for you since they take care of the actual backup in the "General" tab of the Dashboard settings. The monitoring team takes grafana DB backups and write the json format of the dashboard to HDFS (with restricted access).
 
-They also run job moving the backups to `/afs` so that CMSSDT people can access them.
+They also run job for moving the backups in `json` format to `/eos/cms/store/group/offcomp_monit/grafana_backup/` so that CMSSDT people can access them.
 
 ## Useful pointers
 
