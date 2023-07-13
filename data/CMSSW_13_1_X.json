@@ -9,28 +9,8 @@
             "tests_archs": [], 
             "gpu_utests": [], 
             "cmsdist_merged_prs": {
-                "el8_amd64_gcc11": [
-                    {
-                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
-                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
-                        "number": "8592", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }
-                ], 
-                "el9_amd64_gcc11": [
-                    {
-                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
-                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
-                        "number": "8592", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }
-                ], 
+                "el8_amd64_gcc11": [], 
+                "el9_amd64_gcc11": [], 
                 "el8_ppc64le_gcc11": [
                     {
                         "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
@@ -53,17 +33,7 @@
                         "author_login": "cms-sw"
                     }
                 ], 
-                "slc7_amd64_gcc11": [
-                    {
-                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
-                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
-                        "number": "8592", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }
-                ], 
+                "slc7_amd64_gcc11": [], 
                 "el8_aarch64_gcc11": [
                     {
                         "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
@@ -77,11 +47,11 @@
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-0000/el8_amd64_gcc11..IB/CMSSW_13_1_X/master", 
-                "el9_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-2300/el9_amd64_gcc11..IB/CMSSW_13_1_X/cs9", 
+                "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-12-2300/el8_amd64_gcc11..IB/CMSSW_13_1_X/master", 
+                "el9_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-12-2300/el9_amd64_gcc11..IB/CMSSW_13_1_X/cs9", 
                 "el8_ppc64le_gcc11": "IB/CMSSW_13_1_X_2023-07-09-2300/el8_ppc64le_gcc11..IB/CMSSW_13_1_X/master", 
                 "el9_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-2300/el9_aarch64_gcc11..IB/CMSSW_13_1_X/cs9", 
-                "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-0000/slc7_amd64_gcc11..IB/CMSSW_13_1_X/master", 
+                "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-12-2300/slc7_amd64_gcc11..IB/CMSSW_13_1_X/master", 
                 "el8_aarch64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-2300/el8_aarch64_gcc11..IB/CMSSW_13_1_X/master"
             }, 
             "static_checks_failures": "not-found", 
@@ -95,14 +65,124 @@
             "profiling": "inprogress", 
             "crab_tests": "inprogress", 
             "base_branch": "CMSSW_13_1_X", 
-            "compared_tags": "CMSSW_13_1_X_2023-07-12-1100-->CMSSW_13_1_X", 
+            "compared_tags": "CMSSW_13_1_X_2023-07-12-2300-->CMSSW_13_1_X", 
             "dqm_tests": "not-found", 
             "utests": [], 
-            "ib_date": "2023-07-12-1100-0001", 
+            "ib_date": "2023-07-12-2300-0001", 
             "relvals": [], 
             "release_queue": "CMSSW_13_1_X", 
             "comp_baseline": "not-found", 
             "release_name": "CMSSW_13_1_X", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "inprogress", 
+            "static_checks_v2": "inprogress", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "lizard": "inprogress", 
+            "static_checks": "inprogress", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "reco_gpu_mods": "inprogress", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "el9_amd64_gcc11", 
+                "slc7_amd64_gcc11", 
+                "el8_amd64_gcc11"
+            ], 
+            "gpu_utests": [], 
+            "cmsdist_merged_prs": {
+                "el9_amd64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "slc7_amd64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
+                "el8_amd64_gcc11": [
+                    {
+                        "hash": "7bf9930c59951c608c859185ccacbad1bfafff22", 
+                        "title": "Update cmsUpdate tag for L1Trigger-L1TMuon to V01-08-00 [13_1_X]", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/8592", 
+                        "number": "8592", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": {
+                "el9_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-2300/el9_amd64_gcc11..IB/CMSSW_13_1_X_2023-07-12-2300/el9_amd64_gcc11", 
+                "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-0000/slc7_amd64_gcc11..IB/CMSSW_13_1_X_2023-07-12-2300/slc7_amd64_gcc11", 
+                "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-09-0000/el8_amd64_gcc11..IB/CMSSW_13_1_X_2023-07-12-2300/el8_amd64_gcc11"
+            }, 
+            "static_checks_failures": "not-found", 
+            "cmsdistTags": {
+                "el9_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-12-2300/el9_amd64_gcc11", 
+                "slc7_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-12-2300/slc7_amd64_gcc11", 
+                "el8_amd64_gcc11": "IB/CMSSW_13_1_X_2023-07-12-2300/el8_amd64_gcc11"
+            }, 
+            "piechart": "inprogress", 
+            "flawfinder": "inprogress", 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "inprogress", 
+            "reco_event_loop": "inprogress", 
+            "profiling": "inprogress", 
+            "crab_tests": "inprogress", 
+            "base_branch": "CMSSW_13_1_X", 
+            "compared_tags": "CMSSW_13_1_X_2023-07-12-1100-->CMSSW_13_1_X_2023-07-12-2300", 
+            "dqm_tests": "not-found", 
+            "utests": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-07-12-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-07-12-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "el9_amd64_gcc11", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/el9_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-07-12-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2023-07-12-2300-0000", 
+            "relvals": [], 
+            "release_queue": "CMSSW_13_1_X", 
+            "comp_baseline": "not-found", 
+            "release_name": "CMSSW_13_1_X_2023-07-12-2300", 
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
@@ -117,16 +197,54 @@
             ], 
             "fwlite": [], 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-07-12-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 35
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-07-12-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 35
+                    }
+                }, 
+                {
+                    "arch": "el9_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el9_amd64_gcc11/www/wed/13.1-wed-23/CMSSW_13_1_X_2023-07-12-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 37
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "check-headers": "inprogress", 
             "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "el9_amd64_gcc11", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed"
+                }
+            ], 
             "lizard": "inprogress", 
             "static_checks": "inprogress", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "inprogress"
