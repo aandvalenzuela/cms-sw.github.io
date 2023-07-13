@@ -100,14 +100,104 @@
             "profiling": "inprogress", 
             "crab_tests": "inprogress", 
             "base_branch": "CMSSW_13_2_X", 
-            "compared_tags": "CMSSW_13_2_X_2023-07-12-2300-->CMSSW_13_2_X", 
+            "compared_tags": "CMSSW_13_2_X_2023-07-13-1100-->CMSSW_13_2_X", 
             "dqm_tests": "not-found", 
             "utests": [], 
-            "ib_date": "2023-07-12-2300-0001", 
+            "ib_date": "2023-07-13-1100-0001", 
             "relvals": [], 
             "release_queue": "CMSSW_13_2_X", 
             "comp_baseline": "not-found", 
             "release_name": "CMSSW_13_2_X", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "9ee2d519d6133262452be2f0f72423ef69b4f289", 
+                    "title": "Add hasConversionTracks to nano", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42247", 
+                    "number": "42247", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "JaLuka98"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "check-headers": "inprogress", 
+            "static_checks_v2": "inprogress", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "lizard": "inprogress", 
+            "static_checks": "inprogress", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "reco_gpu_mods": "inprogress", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc11", 
+                "el8_amd64_gcc11", 
+                "el8_amd64_gcc12"
+            ], 
+            "gpu_utests": [], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc11": [], 
+                "el8_amd64_gcc11": [], 
+                "el8_amd64_gcc12": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc11": "IB/CMSSW_13_2_X_2023-07-11-2300/slc7_amd64_gcc11..IB/CMSSW_13_2_X_2023-07-11-2300/slc7_amd64_gcc11", 
+                "el8_amd64_gcc11": "IB/CMSSW_13_2_X_2023-07-11-2300/el8_amd64_gcc11..IB/CMSSW_13_2_X_2023-07-11-2300/el8_amd64_gcc11", 
+                "el8_amd64_gcc12": "IB/CMSSW_13_2_X_2023-07-12-1100/el8_amd64_gcc12..IB/CMSSW_13_2_X_2023-07-12-1100/el8_amd64_gcc12"
+            }, 
+            "static_checks_failures": "not-found", 
+            "cmsdistTags": {
+                "slc7_amd64_gcc11": "IB/CMSSW_13_2_X_2023-07-11-2300/slc7_amd64_gcc11", 
+                "el8_amd64_gcc11": "IB/CMSSW_13_2_X_2023-07-11-2300/el8_amd64_gcc11", 
+                "el8_amd64_gcc12": "IB/CMSSW_13_2_X_2023-07-12-1100/el8_amd64_gcc12"
+            }, 
+            "piechart": "inprogress", 
+            "flawfinder": "found", 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "inprogress", 
+            "reco_event_loop": "inprogress", 
+            "profiling": "inprogress", 
+            "crab_tests": "passed", 
+            "base_branch": "CMSSW_13_2_X", 
+            "compared_tags": "CMSSW_13_2_X_2023-07-12-2300-->CMSSW_13_2_X_2023-07-13-1100", 
+            "dqm_tests": "not-found", 
+            "utests": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc11/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc11/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "el8_amd64_gcc12", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/el8_amd64_gcc12/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2023-07-13-1100-0000", 
+            "relvals": [], 
+            "release_queue": "CMSSW_13_2_X", 
+            "comp_baseline": "not-found", 
+            "release_name": "CMSSW_13_2_X_2023-07-13-1100", 
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
@@ -129,20 +219,72 @@
                     "author_login": "bundocka"
                 }
             ], 
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 13
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 13
+                    }
+                }, 
+                {
+                    "arch": "el8_amd64_gcc12", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/el8_amd64_gcc12/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 4075
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "check-headers": "inprogress", 
             "static_checks_v2": "inprogress", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "el8_amd64_gcc11", 
+                    "passed": "passed"
+                }, 
+                {
+                    "arch": "el8_amd64_gcc12", 
+                    "passed": "passed"
+                }
+            ], 
             "lizard": "inprogress", 
             "static_checks": "inprogress", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc11", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc11/www/thu/13.2-thu-11/CMSSW_13_2_X_2023-07-13-1100/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "inprogress"
         }, 
         {

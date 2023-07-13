@@ -31,15 +31,6 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
-                    "hash": "27d670bf6bfa387c052875f6acc4b5df7872572a", 
-                    "title": "[master] Adding cov matrix to fakeBS object", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/42239", 
-                    "number": "42239", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "dzuolo"
-                }, 
-                {
                     "hash": "b2298d4f54847981604a797cac3619e54a1d00ae", 
                     "title": "Add caloParams_v0_4_cfi using latest 2023 v0 MET PUM LUT", 
                     "url": "https://github.com/cms-sw/cmssw/pull/42225", 
@@ -47,6 +38,24 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "bundocka"
+                }, 
+                {
+                    "hash": "9ee2d519d6133262452be2f0f72423ef69b4f289", 
+                    "title": "Add hasConversionTracks to nano", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42247", 
+                    "number": "42247", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "JaLuka98"
+                }, 
+                {
+                    "hash": "27d670bf6bfa387c052875f6acc4b5df7872572a", 
+                    "title": "[master] Adding cov matrix to fakeBS object", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/42239", 
+                    "number": "42239", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dzuolo"
                 }
             ], 
             "base_branch": "CMSSW_13_2_X", 
@@ -124,7 +133,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/el8_amd64_gcc11/www/wed/13.2.ASAN-wed-23/CMSSW_13_2_ASAN_X_2023-07-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3370, 
+                        "num_passed": 3737, 
                         "known_failed": 0, 
                         "num_failed": 2
                     }
